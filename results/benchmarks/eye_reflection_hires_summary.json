@@ -1,0 +1,16 @@
+{
+  "benchmark": "Eye-reflection physics check at 1024 px: FFHQ real vs StyleGAN2 faces",
+  "n_images": 521,
+  "usable": 336,
+  "auc_on_usable": 0.4597,
+  "mean_iou_real": 0.156,
+  "mean_iou_fake": 0.169,
+  "skipped": {
+    "no highlight in one or both eyes": 183,
+    "eyes too small (38px apart)": 1,
+    "eyes too small (8px apart)": 1
+  },
+  "per_image_csv": "eye_reflection_hires_eval.csv",
+  "date": "2026-10-30T15:40:31",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

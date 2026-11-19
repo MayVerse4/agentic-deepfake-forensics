@@ -1,0 +1,84 @@
+{
+  "benchmark": "Community Forensics AI detector on random sample of CommunityForensics-Eval/CompEval (70x15 rows)",
+  "n_images": 900,
+  "n_real": 374,
+  "n_ai": 526,
+  "generators_sampled": 17,
+  "accuracy_at_0.5": 0.8444,
+  "auc": 0.9678,
+  "ai_detected_pct": 73.8,
+  "real_flagged_pct": 0.5,
+  "per_group": {
+    "DFGAN": [
+      30,
+      96.7
+    ],
+    "Dalle2": [
+      60,
+      80.0
+    ],
+    "Dalle3": [
+      15,
+      100.0
+    ],
+    "DeciDiffusionV2": [
+      15,
+      100.0
+    ],
+    "FLUX-dev": [
+      15,
+      93.3
+    ],
+    "FLUX-schnell": [
+      16,
+      93.8
+    ],
+    "Firefly_Image2": [
+      16,
+      81.2
+    ],
+    "Firefly_Image3": [
+      45,
+      28.9
+    ],
+    "GALIP": [
+      15,
+      100.0
+    ],
+    "Hourglass": [
+      15,
+      13.3
+    ],
+    "IdeogramV1": [
+      45,
+      71.1
+    ],
+    "IdeogramV2": [
+      15,
+      66.7
+    ],
+    "Imagen3": [
+      30,
+      83.3
+    ],
+    "LCM_lora_ssd1b": [
+      15,
+      100.0
+    ],
+    "MidjourneyV5_2": [
+      59,
+      93.2
+    ],
+    "MidjourneyV6_1": [
+      105,
+      54.3
+    ],
+    "stable_cascade": [
+      15,
+      100.0
+    ]
+  },
+  "per_image_csv": "ai_detector_eval.csv",
+  "date": "2026-10-30T14:24:37",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

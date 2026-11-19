@@ -1,0 +1,196 @@
+{
+ "syncnet": {
+  "ALL": {
+   "auc": 0.6953,
+   "n": 1704,
+   "missing": null,
+   "seen_in_training": null
+  },
+  "DINet": {
+   "auc": 0.7158,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "IP_LAP": {
+   "auc": 0.8565,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "InfiniteTalk": {
+   "auc": 0.6648,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "KDTalker": {
+   "auc": 0.8734,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "LatentSync": {
+   "auc": 0.4843,
+   "n": 199,
+   "missing": 1,
+   "seen_in_training": null
+  },
+  "OmniSync": {
+   "auc": 0.363,
+   "n": 105,
+   "missing": 95,
+   "seen_in_training": null
+  },
+  "Sonic": {
+   "auc": 0.4211,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "talklip": {
+   "auc": 0.7825,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "wav2lip": {
+   "auc": 0.5062,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  }
+ },
+ "lipinc": {
+  "ALL": {
+   "auc": 0.8226,
+   "n": 577,
+   "missing": null,
+   "seen_in_training": null
+  },
+  "DINet": {
+   "auc": 0.7137,
+   "n": 190,
+   "missing": 10,
+   "seen_in_training": null
+  },
+  "InfiniteTalk": {
+   "auc": 0.6,
+   "n": 20,
+   "missing": 180,
+   "seen_in_training": null
+  },
+  "talklip": {
+   "auc": 0.907,
+   "n": 178,
+   "missing": 22,
+   "seen_in_training": null
+  },
+  "wav2lip": {
+   "auc": 0.904,
+   "n": 189,
+   "missing": 11,
+   "seen_in_training": null
+  }
+ },
+ "lipda": {
+  "ALL": {
+   "auc": 0.9951,
+   "n": 1704,
+   "missing": null,
+   "seen_in_training": null
+  },
+  "UNSEEN_BY_LIPDA": {
+   "auc": 0.9931,
+   "n": 1104,
+   "missing": null,
+   "seen_in_training": null
+  },
+  "DINet": {
+   "auc": 0.9983,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": true
+  },
+  "IP_LAP": {
+   "auc": 1.0,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": true
+  },
+  "InfiniteTalk": {
+   "auc": 0.989,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": false
+  },
+  "KDTalker": {
+   "auc": 1.0,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": false
+  },
+  "LatentSync": {
+   "auc": 1.0,
+   "n": 199,
+   "missing": 1,
+   "seen_in_training": false
+  },
+  "OmniSync": {
+   "auc": 0.653,
+   "n": 105,
+   "missing": 95,
+   "seen_in_training": false
+  },
+  "Sonic": {
+   "auc": 0.9991,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": false
+  },
+  "talklip": {
+   "auc": 0.9954,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": false
+  },
+  "wav2lip": {
+   "auc": 0.9999,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": true
+  }
+ },
+ "face": {
+  "ALL": {
+   "auc": 0.9093,
+   "n": 619,
+   "missing": null,
+   "seen_in_training": null
+  },
+  "DINet": {
+   "auc": 0.8093,
+   "n": 198,
+   "missing": 2,
+   "seen_in_training": null
+  },
+  "InfiniteTalk": {
+   "auc": 0.6636,
+   "n": 21,
+   "missing": 179,
+   "seen_in_training": null
+  },
+  "talklip": {
+   "auc": 0.9843,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  },
+  "wav2lip": {
+   "auc": 0.9691,
+   "n": 200,
+   "missing": 0,
+   "seen_in_training": null
+  }
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "benchmark": "EXIF consistency checks (thumbnail, size, dates, quant tables, MakerNote) on 4 camera/phone JPEGs (ianare/exif-samples) + crops/edits/re-saves with original EXIF kept",
+  "originals_passed": "4/4",
+  "resaved_same_picture_passed": "4/4",
+  "cropped_caught": "4/4",
+  "locally_edited_caught": "4/4",
+  "note": "small test set; phones without an EXIF thumbnail (Nokia 8.3, Jolla) get no thumbnail check",
+  "date": "2026-10-30T20:57:14",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

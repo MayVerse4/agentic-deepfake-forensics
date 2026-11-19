@@ -1,0 +1,65 @@
+{
+  "benchmark": "Videos: NSG-VD vs AI detector vs combined on GenVideo shard 0 (held-out half, 5 splits, <=5% FPR)",
+  "NSG-VD alone (physics)": "AUC 0.794, AI caught 44.7%, real flagged 6.7%",
+  "AI detector alone": "AUC 0.994, AI caught 95.7%, real flagged 6.2%",
+  "NSG-VD + AI detector": "AUC 0.989, AI caught 96.3%, real flagged 4.8%",
+  "per_generator_caught_pct (NSG, AI, combined)": {
+    "COG": [
+      32.5,
+      88.9,
+      85.0
+    ],
+    "DynamicCrafter": [
+      39.1,
+      100.0,
+      100.0
+    ],
+    "Latte": [
+      76.1,
+      92.0,
+      92.0
+    ],
+    "OpenSora": [
+      43.6,
+      100.0,
+      99.4
+    ],
+    "Pika": [
+      67.7,
+      99.2,
+      98.5
+    ],
+    "SEINE": [
+      29.5,
+      98.1,
+      98.7
+    ],
+    "ST2V": [
+      17.6,
+      100.0,
+      100.0
+    ],
+    "SVD": [
+      40.1,
+      100.0,
+      100.0
+    ],
+    "VideoCrafter": [
+      57.2,
+      100.0,
+      100.0
+    ],
+    "ZeroScope": [
+      42.8,
+      78.3,
+      90.9
+    ]
+  },
+  "combiner weights (log NSG, AI, bias)": [
+    3.522,
+    5.865,
+    -2.061
+  ],
+  "date": "2026-10-30T19:16:10",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

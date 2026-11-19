@@ -1,0 +1,18 @@
+{
+  "benchmark": "All tools separate vs combined on CocoGlide (held-out half, 5 splits, <=5% FPR threshold)",
+  "TruFor alone": "AUC 0.737, edits caught 29.0%, real flagged 5.0%",
+  "Mesorch alone": "AUC 0.740, edits caught 23.9%, real flagged 4.5%",
+  "AI detector alone": "AUC 0.755, edits caught 36.8%, real flagged 4.9%",
+  "TruFor + Mesorch": "AUC 0.782, edits caught 38.2%, real flagged 5.6%",
+  "TruFor + AI detector": "AUC 0.798, edits caught 44.5%, real flagged 4.6%",
+  "Mesorch + AI detector": "AUC 0.804, edits caught 45.8%, real flagged 5.8%",
+  "TruFor + Mesorch + AI detector": "AUC 0.822, edits caught 50.6%, real flagged 5.9%",
+  "weights (TruFor, Mesorch, AI, bias)": [
+    2.879,
+    1.807,
+    2.686,
+    -2.392
+  ],
+  "date": "2026-10-30T14:49:38",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

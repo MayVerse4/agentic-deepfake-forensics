@@ -1,0 +1,60 @@
+{
+  "benchmark": "AI videos: GenVideo, format-normalized (519 real, 585 AI)",
+  "Community Forensics alone (current)": "AUC 0.979, caught 85.8%, real flagged 4.0%",
+  "B-Free alone": "AUC 0.894, caught 65.4%, real flagged 4.2%",
+  "Both combined": "AUC 0.947, caught 86.8%, real flagged 4.3%",
+  "per_group_caught_pct": {
+    "COG": [
+      75.5,
+      40.8,
+      74.3
+    ],
+    "DynamicCrafter": [
+      94.3,
+      79.3,
+      98.5
+    ],
+    "Latte": [
+      78.1,
+      52.1,
+      78.2
+    ],
+    "OpenSora": [
+      89.2,
+      76.4,
+      95.0
+    ],
+    "Pika": [
+      72.3,
+      31.1,
+      62.6
+    ],
+    "SEINE": [
+      88.7,
+      73.1,
+      93.8
+    ],
+    "ST2V": [
+      93.5,
+      48.7,
+      94.2
+    ],
+    "SVD": [
+      96.7,
+      91.5,
+      98.7
+    ],
+    "VideoCrafter": [
+      100.0,
+      94.6,
+      100.0
+    ],
+    "ZeroScope": [
+      67.8,
+      68.5,
+      69.2
+    ]
+  },
+  "date": "2026-10-31T02:00:56",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

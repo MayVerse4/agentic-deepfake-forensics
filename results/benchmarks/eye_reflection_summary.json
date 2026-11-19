@@ -1,0 +1,20 @@
+{
+  "benchmark": "Eye-reflection physics check (corneal highlight IoU) on FFHQ real vs StyleGAN faces, 140k-Real-and-Fake-Faces test",
+  "n_images": 600,
+  "image_size_px": 256,
+  "usable": 524,
+  "auc_on_usable": 0.4525,
+  "mean_iou_real": 0.042,
+  "mean_iou_fake": 0.059,
+  "skipped": {
+    "no highlight in one or both eyes": 71,
+    "eyes too small (38px apart)": 1,
+    "eyes too small (18px apart)": 1,
+    "eyes too small (33px apart)": 1,
+    "eyes too small (20px apart)": 1,
+    "eyes too small (12px apart)": 1
+  },
+  "per_image_csv": "eye_reflection_eval.csv",
+  "date": "2026-10-30T15:09:44",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

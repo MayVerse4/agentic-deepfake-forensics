@@ -1,0 +1,63 @@
+{
+  "benchmark": "NSG-VD physics video detector (standard-Pika-d) on GenVideo shard 0 (10 generators)",
+  "n_real_test": 136,
+  "n_ref_real": 100,
+  "n_ai": 587,
+  "auc": 0.7907,
+  "ai_detected_at_5pct_fpr": 43.6,
+  "per_generator (n, AUC, detected@5%FPR)": {
+    "COG": [
+      60,
+      0.746,
+      40.0
+    ],
+    "DynamicCrafter": [
+      62,
+      0.743,
+      35.5
+    ],
+    "Latte": [
+      64,
+      0.931,
+      75.0
+    ],
+    "OpenSora": [
+      66,
+      0.783,
+      43.9
+    ],
+    "Pika": [
+      53,
+      0.924,
+      67.9
+    ],
+    "SEINE": [
+      58,
+      0.777,
+      31.0
+    ],
+    "ST2V": [
+      59,
+      0.633,
+      13.6
+    ],
+    "SVD": [
+      61,
+      0.767,
+      36.1
+    ],
+    "VideoCrafter": [
+      47,
+      0.85,
+      53.2
+    ],
+    "ZeroScope": [
+      57,
+      0.77,
+      42.1
+    ]
+  },
+  "per_video_csv": "nsgvd_standard-Pika-d_eval.csv",
+  "date": "2026-10-30T18:17:13",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

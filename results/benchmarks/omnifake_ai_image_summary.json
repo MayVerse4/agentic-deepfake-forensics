@@ -1,0 +1,10 @@
+{
+  "benchmark": "OmniFake-OOD: AI image: REAL vs FULL_SYNTHETIC",
+  "Community Forensics": "AUC(app) 0.870, AUC 0.878, caught 52.8%, flagged 5.2%, acc 74.5%",
+  "B-Free": "AUC(app) 0.526, AUC 0.544, caught 7.0%, flagged 5.0%, acc 52.3%",
+  "GAPL": "AUC(app) 0.850, AUC 0.856, caught 51.3%, flagged 4.2%, acc 74.2%",
+  "CF + B-Free (app now)": "AUC(app) 0.756, AUC 0.759, caught 51.3%, flagged 4.5%, acc 74.1%",
+  "CF + B-Free + GAPL (proposed)": "AUC(app) 0.844, AUC 0.860, caught 60.9%, flagged 3.5%, acc 79.2%",
+  "date": "2026-11-16T21:03:53",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

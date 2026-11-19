@@ -1,0 +1,122 @@
+{
+ "temporal": [
+  {
+   "ckpt": "checkpoints/temporal_model_best_phase1.pth",
+   "auc": 0.8403,
+   "acc": 0.7692,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_best.pth",
+   "auc": 0.7153,
+   "acc": 0.4615,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_best_deepfakes_subset.pth",
+   "auc": 0.6111,
+   "acc": 0.3846,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_best_face2face_subset.pth",
+   "auc": 0.6042,
+   "acc": 0.5769,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_best_phase1b_partial.pth",
+   "auc": 0.6389,
+   "acc": 0.5385,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_final.pth",
+   "auc": 0.7153,
+   "acc": 0.4615,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_final_deepfakes_subset.pth",
+   "auc": 0.5625,
+   "acc": 0.5385,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_final_face2face_subset.pth",
+   "auc": 0.5972,
+   "acc": 0.5769,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_final_phase1.pth",
+   "auc": 0.8611,
+   "acc": 0.7308,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\temporal_model_final_phase1b_partial.pth",
+   "auc": 0.6736,
+   "acc": 0.5769,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_final\\temporal_model_best_deepfakes_subset.pth",
+   "auc": 0.6111,
+   "acc": 0.3846,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_final\\temporal_model_best_face2face_subset.pth",
+   "auc": 0.6042,
+   "acc": 0.5769,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_final\\temporal_model_best_frozen_baseline.pth",
+   "auc": 0.7153,
+   "acc": 0.4615,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_final\\temporal_model_best_phase1.pth",
+   "auc": 0.8403,
+   "acc": 0.7692,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\checkpoints_final\\temporal_model_best_phase1b_partial.pth",
+   "auc": 0.6389,
+   "acc": 0.5385,
+   "n": 26
+  },
+  {
+   "ckpt": "archive\\models_checkpoints\\temporal\\checkpoints\\temporal_model_best.pth",
+   "error": "state dict does not match TemporalModel"
+  },
+  {
+   "ckpt": "archive\\models_checkpoints\\temporal\\checkpoints\\temporal_model_final.pth",
+   "error": "state dict does not match TemporalModel"
+  }
+ ],
+ "fusion": [
+  {
+   "ckpt": "checkpoints/fusion_model_4input.pth",
+   "inputs": 4,
+   "auc": 0.9613,
+   "acc": 0.8953
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\fusion_model_3branch.pth",
+   "inputs": 4,
+   "auc": 0.962,
+   "acc": 0.907
+  },
+  {
+   "ckpt": "archive\\checkpoints_experiments\\fusion_model_best.pth",
+   "inputs": 3,
+   "auc": 0.9574,
+   "acc": 0.8837
+  }
+ ]
+}

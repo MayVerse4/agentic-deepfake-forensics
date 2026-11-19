@@ -1,0 +1,9 @@
+{
+  "benchmark": "AI-inpainted edits: CocoGlide (512 real + 512 GLIDE-inpainted)",
+  "B-Free alone": "AUC 0.893, caught 64.4%, real flagged 4.4%",
+  "Community Forensics alone": "AUC 0.755, caught 36.8%, real flagged 4.9%",
+  "3 tools (current app)": "AUC 0.822, caught 50.6%, real flagged 5.9%",
+  "3 tools + B-Free": "AUC 0.886, caught 66.3%, real flagged 4.2%",
+  "date": "2026-10-31T00:57:41",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}
