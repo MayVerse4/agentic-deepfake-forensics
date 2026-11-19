@@ -1,0 +1,10 @@
+{
+  "benchmark": "Invisible SD watermark decoder (invisible-watermark dwtDct, SD v1/v2 + SDXL messages)",
+  "clean_images_flagged": "0/518 (512 CocoGlide real + 6 demo)",
+  "clean_bit_match": "median 0.51, max 0.69; threshold 0.80",
+  "sd1_watermark_found_untouched": "33/50",
+  "sdxl_watermark_found_untouched": "39/50",
+  "after_jpeg90_or_jpeg75_or_resize": "0/50 (watermark destroyed)",
+  "date": "2026-10-30T20:57:14",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

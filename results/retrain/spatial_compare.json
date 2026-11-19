@@ -1,0 +1,521 @@
+{
+ "FF++ validation | deployed | ALL": {
+  "n": 8400,
+  "acc": 0.9306,
+  "auc": 0.9712,
+  "tpr5": 0.8613,
+  "fpr_at_0.5": 0.1621
+ },
+ "FF++ validation | deployed | Deepfakes": {
+  "n": 1400,
+  "acc": 0.9693,
+  "fake_caught_at_0.5": 0.9693
+ },
+ "FF++ validation | deployed | Face2Face": {
+  "n": 1400,
+  "acc": 0.955,
+  "fake_caught_at_0.5": 0.955
+ },
+ "FF++ validation | deployed | FaceShifter": {
+  "n": 1400,
+  "acc": 0.9664,
+  "fake_caught_at_0.5": 0.9664
+ },
+ "FF++ validation | deployed | FaceSwap": {
+  "n": 1400,
+  "acc": 0.9529,
+  "fake_caught_at_0.5": 0.9529
+ },
+ "FF++ validation | deployed | NeuralTextures": {
+  "n": 1400,
+  "acc": 0.9021,
+  "fake_caught_at_0.5": 0.9021
+ },
+ "FF++ validation | deployed | real": {
+  "n": 1400,
+  "acc": 0.8379,
+  "real_flagged_at_0.5": 0.1621
+ },
+ "FF++ validation | df40ff | ALL": {
+  "n": 8400,
+  "acc": 0.9029,
+  "auc": 0.9677,
+  "tpr5": 0.8541,
+  "fpr_at_0.5": 0.0836
+ },
+ "FF++ validation | df40ff | Deepfakes": {
+  "n": 1400,
+  "acc": 0.9357,
+  "fake_caught_at_0.5": 0.9357
+ },
+ "FF++ validation | df40ff | Face2Face": {
+  "n": 1400,
+  "acc": 0.9236,
+  "fake_caught_at_0.5": 0.9236
+ },
+ "FF++ validation | df40ff | FaceShifter": {
+  "n": 1400,
+  "acc": 0.93,
+  "fake_caught_at_0.5": 0.93
+ },
+ "FF++ validation | df40ff | FaceSwap": {
+  "n": 1400,
+  "acc": 0.965,
+  "fake_caught_at_0.5": 0.965
+ },
+ "FF++ validation | df40ff | NeuralTextures": {
+  "n": 1400,
+  "acc": 0.7464,
+  "fake_caught_at_0.5": 0.7464
+ },
+ "FF++ validation | df40ff | real": {
+  "n": 1400,
+  "acc": 0.9164,
+  "real_flagged_at_0.5": 0.0836
+ },
+ "FF++ validation | df40ffhq | ALL": {
+  "n": 8400,
+  "acc": 0.9235,
+  "auc": 0.9727,
+  "tpr5": 0.8663,
+  "fpr_at_0.5": 0.0857
+ },
+ "FF++ validation | df40ffhq | Deepfakes": {
+  "n": 1400,
+  "acc": 0.955,
+  "fake_caught_at_0.5": 0.955
+ },
+ "FF++ validation | df40ffhq | Face2Face": {
+  "n": 1400,
+  "acc": 0.9464,
+  "fake_caught_at_0.5": 0.9464
+ },
+ "FF++ validation | df40ffhq | FaceShifter": {
+  "n": 1400,
+  "acc": 0.9579,
+  "fake_caught_at_0.5": 0.9579
+ },
+ "FF++ validation | df40ffhq | FaceSwap": {
+  "n": 1400,
+  "acc": 0.9693,
+  "fake_caught_at_0.5": 0.9693
+ },
+ "FF++ validation | df40ffhq | NeuralTextures": {
+  "n": 1400,
+  "acc": 0.7979,
+  "fake_caught_at_0.5": 0.7979
+ },
+ "FF++ validation | df40ffhq | real": {
+  "n": 1400,
+  "acc": 0.9143,
+  "real_flagged_at_0.5": 0.0857
+ },
+ "DF40 test | deployed | ALL": {
+  "n": 7332,
+  "acc": 0.5893,
+  "auc": 0.6436,
+  "tpr5": 0.2556,
+  "fpr_at_0.5": 0.4605
+ },
+ "DF40 test | deployed | CollabDiff": {
+  "n": 445,
+  "acc": 0.5303,
+  "fake_caught_at_0.5": 0.5303
+ },
+ "DF40 test | deployed | CollabDiff_real": {
+  "n": 248,
+  "acc": 0.7419,
+  "real_flagged_at_0.5": 0.2581
+ },
+ "DF40 test | deployed | MidJourney": {
+  "n": 441,
+  "acc": 0.5556,
+  "fake_caught_at_0.5": 0.5556
+ },
+ "DF40 test | deployed | MidJourney_real": {
+  "n": 246,
+  "acc": 0.5569,
+  "real_flagged_at_0.5": 0.4431
+ },
+ "DF40 test | deployed | deepfacelab": {
+  "n": 445,
+  "acc": 0.9618,
+  "fake_caught_at_0.5": 0.9618
+ },
+ "DF40 test | deployed | deepfacelab_real": {
+  "n": 353,
+  "acc": 0.3484,
+  "real_flagged_at_0.5": 0.6516
+ },
+ "DF40 test | deployed | e4e": {
+  "n": 444,
+  "acc": 0.9369,
+  "fake_caught_at_0.5": 0.9369
+ },
+ "DF40 test | deployed | heygen": {
+  "n": 445,
+  "acc": 0.6764,
+  "fake_caught_at_0.5": 0.6764
+ },
+ "DF40 test | deployed | heygen_real": {
+  "n": 1754,
+  "acc": 0.4897,
+  "real_flagged_at_0.5": 0.5103
+ },
+ "DF40 test | deployed | stargan": {
+  "n": 445,
+  "acc": 0.6517,
+  "fake_caught_at_0.5": 0.6517
+ },
+ "DF40 test | deployed | stargan_real": {
+  "n": 498,
+  "acc": 0.504,
+  "real_flagged_at_0.5": 0.496
+ },
+ "DF40 test | deployed | starganv2": {
+  "n": 444,
+  "acc": 0.1757,
+  "fake_caught_at_0.5": 0.1757
+ },
+ "DF40 test | deployed | starganv2_real": {
+  "n": 432,
+  "acc": 0.7245,
+  "real_flagged_at_0.5": 0.2755
+ },
+ "DF40 test | deployed | styleclip": {
+  "n": 239,
+  "acc": 0.8787,
+  "fake_caught_at_0.5": 0.8787
+ },
+ "DF40 test | deployed | styleclip_real": {
+  "n": 237,
+  "acc": 0.7004,
+  "real_flagged_at_0.5": 0.2996
+ },
+ "DF40 test | deployed | whichfaceisreal": {
+  "n": 216,
+  "acc": 0.3889,
+  "fake_caught_at_0.5": 0.3889
+ },
+ "DF40 test | deployed | CollabDiff AUC": {
+  "n": 693,
+  "acc": 0.6061,
+  "auc": 0.6991,
+  "tpr5": 0.2854,
+  "fpr_at_0.5": 0.2581
+ },
+ "DF40 test | deployed | MidJourney AUC": {
+  "n": 687,
+  "acc": 0.556,
+  "auc": 0.5675,
+  "tpr5": 0.0839,
+  "fpr_at_0.5": 0.4431
+ },
+ "DF40 test | deployed | deepfacelab AUC": {
+  "n": 798,
+  "acc": 0.6905,
+  "auc": 0.7779,
+  "tpr5": 0.2067,
+  "fpr_at_0.5": 0.6516
+ },
+ "DF40 test | deployed | heygen AUC": {
+  "n": 2199,
+  "acc": 0.5275,
+  "auc": 0.6533,
+  "tpr5": 0.3393,
+  "fpr_at_0.5": 0.5103
+ },
+ "DF40 test | deployed | stargan AUC": {
+  "n": 943,
+  "acc": 0.5737,
+  "auc": 0.6176,
+  "tpr5": 0.1213,
+  "fpr_at_0.5": 0.496
+ },
+ "DF40 test | deployed | starganv2 AUC": {
+  "n": 876,
+  "acc": 0.4463,
+  "auc": 0.3835,
+  "tpr5": 0.0135,
+  "fpr_at_0.5": 0.2755
+ },
+ "DF40 test | deployed | styleclip AUC": {
+  "n": 476,
+  "acc": 0.7899,
+  "auc": 0.8978,
+  "tpr5": 0.5816,
+  "fpr_at_0.5": 0.2996
+ },
+ "DF40 test | df40ff | ALL": {
+  "n": 7332,
+  "acc": 0.657,
+  "auc": 0.747,
+  "tpr5": 0.3086,
+  "fpr_at_0.5": 0.4437
+ },
+ "DF40 test | df40ff | CollabDiff": {
+  "n": 445,
+  "acc": 0.9573,
+  "fake_caught_at_0.5": 0.9573
+ },
+ "DF40 test | df40ff | CollabDiff_real": {
+  "n": 248,
+  "acc": 0.4274,
+  "real_flagged_at_0.5": 0.5726
+ },
+ "DF40 test | df40ff | MidJourney": {
+  "n": 441,
+  "acc": 0.4286,
+  "fake_caught_at_0.5": 0.4286
+ },
+ "DF40 test | df40ff | MidJourney_real": {
+  "n": 246,
+  "acc": 0.3211,
+  "real_flagged_at_0.5": 0.6789
+ },
+ "DF40 test | df40ff | deepfacelab": {
+  "n": 445,
+  "acc": 0.6562,
+  "fake_caught_at_0.5": 0.6562
+ },
+ "DF40 test | df40ff | deepfacelab_real": {
+  "n": 353,
+  "acc": 0.5524,
+  "real_flagged_at_0.5": 0.4476
+ },
+ "DF40 test | df40ff | e4e": {
+  "n": 444,
+  "acc": 0.9279,
+  "fake_caught_at_0.5": 0.9279
+ },
+ "DF40 test | df40ff | heygen": {
+  "n": 445,
+  "acc": 0.582,
+  "fake_caught_at_0.5": 0.582
+ },
+ "DF40 test | df40ff | heygen_real": {
+  "n": 1754,
+  "acc": 0.7332,
+  "real_flagged_at_0.5": 0.2668
+ },
+ "DF40 test | df40ff | stargan": {
+  "n": 445,
+  "acc": 0.9573,
+  "fake_caught_at_0.5": 0.9573
+ },
+ "DF40 test | df40ff | stargan_real": {
+  "n": 498,
+  "acc": 0.4056,
+  "real_flagged_at_0.5": 0.5944
+ },
+ "DF40 test | df40ff | starganv2": {
+  "n": 444,
+  "acc": 0.7523,
+  "fake_caught_at_0.5": 0.7523
+ },
+ "DF40 test | df40ff | starganv2_real": {
+  "n": 432,
+  "acc": 0.3125,
+  "real_flagged_at_0.5": 0.6875
+ },
+ "DF40 test | df40ff | styleclip": {
+  "n": 239,
+  "acc": 0.954,
+  "fake_caught_at_0.5": 0.954
+ },
+ "DF40 test | df40ff | styleclip_real": {
+  "n": 237,
+  "acc": 0.3924,
+  "real_flagged_at_0.5": 0.6076
+ },
+ "DF40 test | df40ff | whichfaceisreal": {
+  "n": 216,
+  "acc": 0.7176,
+  "fake_caught_at_0.5": 0.7176
+ },
+ "DF40 test | df40ff | CollabDiff AUC": {
+  "n": 693,
+  "acc": 0.7677,
+  "auc": 0.874,
+  "tpr5": 0.4539,
+  "fpr_at_0.5": 0.5726
+ },
+ "DF40 test | df40ff | MidJourney AUC": {
+  "n": 687,
+  "acc": 0.3901,
+  "auc": 0.3564,
+  "tpr5": 0.0363,
+  "fpr_at_0.5": 0.6789
+ },
+ "DF40 test | df40ff | deepfacelab AUC": {
+  "n": 798,
+  "acc": 0.6103,
+  "auc": 0.6797,
+  "tpr5": 0.2944,
+  "fpr_at_0.5": 0.4476
+ },
+ "DF40 test | df40ff | heygen AUC": {
+  "n": 2199,
+  "acc": 0.7026,
+  "auc": 0.7168,
+  "tpr5": 0.3326,
+  "fpr_at_0.5": 0.2668
+ },
+ "DF40 test | df40ff | stargan AUC": {
+  "n": 943,
+  "acc": 0.666,
+  "auc": 0.8463,
+  "tpr5": 0.4022,
+  "fpr_at_0.5": 0.5944
+ },
+ "DF40 test | df40ff | starganv2 AUC": {
+  "n": 876,
+  "acc": 0.5354,
+  "auc": 0.5178,
+  "tpr5": 0.0518,
+  "fpr_at_0.5": 0.6875
+ },
+ "DF40 test | df40ff | styleclip AUC": {
+  "n": 476,
+  "acc": 0.6744,
+  "auc": 0.8455,
+  "tpr5": 0.3556,
+  "fpr_at_0.5": 0.6076
+ },
+ "DF40 test | df40ffhq | ALL": {
+  "n": 7332,
+  "acc": 0.6184,
+  "auc": 0.6592,
+  "tpr5": 0.2093,
+  "fpr_at_0.5": 0.1202
+ },
+ "DF40 test | df40ffhq | CollabDiff": {
+  "n": 445,
+  "acc": 0.2629,
+  "fake_caught_at_0.5": 0.2629
+ },
+ "DF40 test | df40ffhq | CollabDiff_real": {
+  "n": 248,
+  "acc": 0.7944,
+  "real_flagged_at_0.5": 0.2056
+ },
+ "DF40 test | df40ffhq | MidJourney": {
+  "n": 441,
+  "acc": 0.0045,
+  "fake_caught_at_0.5": 0.0045
+ },
+ "DF40 test | df40ffhq | MidJourney_real": {
+  "n": 246,
+  "acc": 0.9878,
+  "real_flagged_at_0.5": 0.0122
+ },
+ "DF40 test | df40ffhq | deepfacelab": {
+  "n": 445,
+  "acc": 0.6652,
+  "fake_caught_at_0.5": 0.6652
+ },
+ "DF40 test | df40ffhq | deepfacelab_real": {
+  "n": 353,
+  "acc": 0.5666,
+  "real_flagged_at_0.5": 0.4334
+ },
+ "DF40 test | df40ffhq | e4e": {
+  "n": 444,
+  "acc": 0.4932,
+  "fake_caught_at_0.5": 0.4932
+ },
+ "DF40 test | df40ffhq | heygen": {
+  "n": 445,
+  "acc": 0.3461,
+  "fake_caught_at_0.5": 0.3461
+ },
+ "DF40 test | df40ffhq | heygen_real": {
+  "n": 1754,
+  "acc": 0.9869,
+  "real_flagged_at_0.5": 0.0131
+ },
+ "DF40 test | df40ffhq | stargan": {
+  "n": 445,
+  "acc": 0.7685,
+  "fake_caught_at_0.5": 0.7685
+ },
+ "DF40 test | df40ffhq | stargan_real": {
+  "n": 498,
+  "acc": 0.759,
+  "real_flagged_at_0.5": 0.241
+ },
+ "DF40 test | df40ffhq | starganv2": {
+  "n": 444,
+  "acc": 0.1306,
+  "fake_caught_at_0.5": 0.1306
+ },
+ "DF40 test | df40ffhq | starganv2_real": {
+  "n": 432,
+  "acc": 0.8866,
+  "real_flagged_at_0.5": 0.1134
+ },
+ "DF40 test | df40ffhq | styleclip": {
+  "n": 239,
+  "acc": 0.1297,
+  "fake_caught_at_0.5": 0.1297
+ },
+ "DF40 test | df40ffhq | styleclip_real": {
+  "n": 237,
+  "acc": 0.7722,
+  "real_flagged_at_0.5": 0.2278
+ },
+ "DF40 test | df40ffhq | whichfaceisreal": {
+  "n": 216,
+  "acc": 0.0,
+  "fake_caught_at_0.5": 0.0
+ },
+ "DF40 test | df40ffhq | CollabDiff AUC": {
+  "n": 693,
+  "acc": 0.4531,
+  "auc": 0.5227,
+  "tpr5": 0.0831,
+  "fpr_at_0.5": 0.2056
+ },
+ "DF40 test | df40ffhq | MidJourney AUC": {
+  "n": 687,
+  "acc": 0.3566,
+  "auc": 0.6294,
+  "tpr5": 0.0522,
+  "fpr_at_0.5": 0.0122
+ },
+ "DF40 test | df40ffhq | deepfacelab AUC": {
+  "n": 798,
+  "acc": 0.6216,
+  "auc": 0.6899,
+  "tpr5": 0.2944,
+  "fpr_at_0.5": 0.4334
+ },
+ "DF40 test | df40ffhq | heygen AUC": {
+  "n": 2199,
+  "acc": 0.8572,
+  "auc": 0.823,
+  "tpr5": 0.4989,
+  "fpr_at_0.5": 0.0131
+ },
+ "DF40 test | df40ffhq | stargan AUC": {
+  "n": 943,
+  "acc": 0.7635,
+  "auc": 0.8375,
+  "tpr5": 0.3348,
+  "fpr_at_0.5": 0.241
+ },
+ "DF40 test | df40ffhq | starganv2 AUC": {
+  "n": 876,
+  "acc": 0.5034,
+  "auc": 0.5272,
+  "tpr5": 0.0518,
+  "fpr_at_0.5": 0.1134
+ },
+ "DF40 test | df40ffhq | styleclip AUC": {
+  "n": 476,
+  "acc": 0.4496,
+  "auc": 0.3658,
+  "tpr5": 0.046,
+  "fpr_at_0.5": 0.2278
+ }
+}

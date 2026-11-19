@@ -1,0 +1,74 @@
+# ---------------------------------------------------------------- environments
+.venv*/
+venv/
+env/
+node_modules/
+frontend/.next/
+.env
+.env.*
+
+# ---------------------------------------------------------------- python / tooling
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+
+# ---------------------------------------------------------------- OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------------------------------------------------------- large or licensed content (see README: Setup)
+data/
+weights/
+third_party/
+tools/
+archive/
+restructure_manifest.json
+
+# model and archive formats anywhere
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+*.bin
+*.pkl
+*.parquet
+*.zip
+*.tar
+*.gz
+*.7z
+
+# media anywhere, except the UI assets and documentation figures
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.jpg
+*.jpeg
+*.png
+*.webp
+!frontend/public/**
+!frontend/screenshots/**
+!docs/**
+
+# ---------------------------------------------------------------- runtime state of the app
+backend/data/
+backend/source_cache.json
+frontend/local_history.json
+results/retrain/*.npz
+*.partial.csv
+frontend/public/dataset/

@@ -1,0 +1,522 @@
+file,label,size,ok,iou,score,reason
+00864.webp,0,1024,True,0.56,0.43999999999999995,
+00394.webp,0,1024,True,0.0,1.0,
+00776.webp,0,1024,True,0.3176470588235294,0.6823529411764706,
+00911.webp,0,1024,False,,,no highlight in one or both eyes
+00430.webp,0,1024,False,,,no highlight in one or both eyes
+00041.webp,0,1024,False,,,no highlight in one or both eyes
+00265.webp,0,1024,True,0.30434782608695654,0.6956521739130435,
+00988.webp,0,1024,True,0.3017241379310345,0.6982758620689655,
+00523.webp,0,1024,True,0.0,1.0,
+00497.webp,0,1024,True,0.40476190476190477,0.5952380952380952,
+00414.webp,0,1024,True,0.18181818181818182,0.8181818181818181,
+00940.webp,0,1024,True,0.03571428571428571,0.9642857142857143,
+00802.webp,0,1024,False,,,no highlight in one or both eyes
+00849.webp,0,1024,False,,,no highlight in one or both eyes
+00310.webp,0,1024,False,,,no highlight in one or both eyes
+00488.webp,0,1024,True,0.19444444444444445,0.8055555555555556,
+00366.webp,0,1024,False,,,no highlight in one or both eyes
+00597.webp,0,1024,True,0.0,1.0,
+00913.webp,0,1024,False,,,no highlight in one or both eyes
+00929.webp,0,1024,False,,,no highlight in one or both eyes
+00223.webp,0,1024,False,,,no highlight in one or both eyes
+00516.webp,0,1024,True,0.0,1.0,
+00142.webp,0,1024,True,0.0070921985815602835,0.9929078014184397,
+00288.webp,0,1024,False,,,no highlight in one or both eyes
+00143.webp,0,1024,True,0.0,1.0,
+00773.webp,0,1024,True,0.415,0.585,
+00097.webp,0,1024,False,,,no highlight in one or both eyes
+00633.webp,0,1024,True,0.078125,0.921875,
+00818.webp,0,1024,True,0.0,1.0,
+00256.webp,0,1024,False,,,no highlight in one or both eyes
+00931.webp,0,1024,True,0.0,1.0,
+00545.webp,0,1024,False,,,no highlight in one or both eyes
+00722.webp,0,1024,True,0.0,1.0,
+00829.webp,0,1024,True,0.15384615384615385,0.8461538461538461,
+00616.webp,0,1024,True,0.2564102564102564,0.7435897435897436,
+00923.webp,0,1024,False,,,no highlight in one or both eyes
+00150.webp,0,1024,True,0.0,1.0,
+00317.webp,0,1024,True,0.0,1.0,
+00101.webp,0,1024,True,0.0,1.0,
+00747.webp,0,1024,True,0.0,1.0,
+00075.webp,0,1024,False,,,no highlight in one or both eyes
+00920.webp,0,1024,False,,,no highlight in one or both eyes
+00870.webp,0,1024,True,0.39344262295081966,0.6065573770491803,
+00700.webp,0,1024,False,,,no highlight in one or both eyes
+00338.webp,0,1024,False,,,no highlight in one or both eyes
+00483.webp,0,1024,False,,,no highlight in one or both eyes
+00573.webp,0,1024,True,0.1839080459770115,0.8160919540229885,
+00103.webp,0,1024,True,0.0,1.0,
+00362.webp,0,1024,False,,,no highlight in one or both eyes
+00444.webp,0,1024,True,0.0,1.0,
+00323.webp,0,1024,True,0.0,1.0,
+00625.webp,0,1024,True,0.0,1.0,
+00655.webp,0,1024,True,0.0,1.0,
+00934.webp,0,1024,True,0.0,1.0,
+00209.webp,0,1024,False,,,no highlight in one or both eyes
+00565.webp,0,1024,False,,,no highlight in one or both eyes
+00984.webp,0,1024,False,,,no highlight in one or both eyes
+00453.webp,0,1024,True,0.0,1.0,
+00886.webp,0,1024,False,,,no highlight in one or both eyes
+00533.webp,0,1024,False,,,no highlight in one or both eyes
+00266.webp,0,1024,True,0.0,1.0,
+00063.webp,0,1024,False,,,no highlight in one or both eyes
+00824.webp,0,1024,True,0.0,1.0,
+00561.webp,0,1024,True,0.0,1.0,
+00014.webp,0,1024,True,0.5714285714285714,0.4285714285714286,
+00095.webp,0,1024,True,0.8363636363636363,0.1636363636363637,
+00736.webp,0,1024,False,,,no highlight in one or both eyes
+00860.webp,0,1024,True,0.36752136752136755,0.6324786324786325,
+00408.webp,0,1024,False,,,no highlight in one or both eyes
+00727.webp,0,1024,True,0.0,1.0,
+00844.webp,0,1024,False,,,no highlight in one or both eyes
+00803.webp,0,1024,True,0.0,1.0,
+00684.webp,0,1024,True,0.0,1.0,
+00640.webp,0,1024,False,,,no highlight in one or both eyes
+00001.webp,0,1024,True,0.0,1.0,
+00626.webp,0,1024,True,0.2619047619047619,0.7380952380952381,
+00505.webp,0,1024,False,,,no highlight in one or both eyes
+00847.webp,0,1024,False,,,no highlight in one or both eyes
+00888.webp,0,1024,False,,,no highlight in one or both eyes
+00341.webp,0,1024,True,0.0,1.0,
+00249.webp,0,1024,True,0.0,1.0,
+00960.webp,0,1024,False,,,no highlight in one or both eyes
+00333.webp,0,1024,True,0.0,1.0,
+00720.webp,0,1024,False,,,no highlight in one or both eyes
+00891.webp,0,1024,True,0.3096774193548387,0.6903225806451613,
+00064.webp,0,1024,True,0.0392156862745098,0.9607843137254902,
+00195.webp,0,1024,False,,,no highlight in one or both eyes
+00581.webp,0,1024,True,0.717391304347826,0.28260869565217395,
+00227.webp,0,1024,True,0.0,1.0,
+00244.webp,0,1024,False,,,no highlight in one or both eyes
+00822.webp,0,1024,False,,,no highlight in one or both eyes
+00145.webp,0,1024,True,0.3,0.7,
+00909.webp,0,1024,True,0.1728395061728395,0.8271604938271605,
+00556.webp,0,1024,True,0.11728395061728394,0.8827160493827161,
+00458.webp,0,1024,True,0.3064516129032258,0.6935483870967742,
+00093.webp,0,1024,False,,,no highlight in one or both eyes
+00082.webp,0,1024,True,0.2608695652173913,0.7391304347826086,
+00327.webp,0,1024,False,,,no highlight in one or both eyes
+00896.webp,0,1024,True,0.08275862068965517,0.9172413793103449,
+00520.webp,0,1024,True,0.08571428571428572,0.9142857142857143,
+00501.webp,0,1024,False,,,no highlight in one or both eyes
+00111.webp,0,1024,False,,,no highlight in one or both eyes
+00308.webp,0,1024,True,0.15789473684210525,0.8421052631578947,
+00564.webp,0,1024,True,0.2761904761904762,0.7238095238095238,
+00298.webp,0,1024,False,,,no highlight in one or both eyes
+00723.webp,0,1024,True,0.0,1.0,
+00127.webp,0,1024,True,0.49230769230769234,0.5076923076923077,
+00560.webp,0,1024,True,0.047619047619047616,0.9523809523809523,
+00340.webp,0,1024,True,0.05673758865248227,0.9432624113475178,
+00834.webp,0,1024,False,,,no highlight in one or both eyes
+00553.webp,0,1024,True,0.0,1.0,
+00208.webp,0,1024,False,,,no highlight in one or both eyes
+00971.webp,0,1024,True,0.1267605633802817,0.8732394366197183,
+00617.webp,0,1024,True,0.018691588785046728,0.9813084112149533,
+00892.webp,0,1024,True,0.5909090909090909,0.40909090909090906,
+00601.webp,0,1024,True,0.3673469387755102,0.6326530612244898,
+00294.webp,0,1024,True,0.07913669064748201,0.920863309352518,
+00455.webp,0,1024,True,0.0,1.0,
+00904.webp,0,1024,True,0.0,1.0,
+00610.webp,0,1024,True,0.5368421052631579,0.4631578947368421,
+00817.webp,0,1024,False,,,no highlight in one or both eyes
+00998.webp,0,1024,True,0.28225806451612906,0.717741935483871,
+00324.webp,0,1024,True,0.011235955056179775,0.9887640449438202,
+00589.webp,0,1024,True,0.16037735849056603,0.839622641509434,
+00247.webp,0,1024,True,0.0,1.0,
+00297.webp,0,1024,False,,,no highlight in one or both eyes
+00188.webp,0,1024,True,0.17307692307692307,0.8269230769230769,
+00193.webp,0,1024,False,,,no highlight in one or both eyes
+00841.webp,0,1024,True,0.27741935483870966,0.7225806451612904,
+00191.webp,0,1024,True,0.6687898089171974,0.3312101910828026,
+00033.webp,0,1024,False,,,no highlight in one or both eyes
+00627.webp,0,1024,True,0.4,0.6,
+00672.webp,0,1024,False,,,no highlight in one or both eyes
+00939.webp,0,1024,False,,,no highlight in one or both eyes
+00487.webp,0,1024,False,,,no highlight in one or both eyes
+00070.webp,0,1024,False,,,no highlight in one or both eyes
+00091.webp,0,1024,False,,,no highlight in one or both eyes
+00695.webp,0,1024,False,,,no highlight in one or both eyes
+00775.webp,0,1024,False,,,no highlight in one or both eyes
+00133.webp,0,1024,True,0.2236842105263158,0.7763157894736842,
+00153.webp,0,1024,True,0.0,1.0,
+00039.webp,0,1024,False,,,no highlight in one or both eyes
+00903.webp,0,1024,True,0.12,0.88,
+00716.webp,0,1024,True,0.0,1.0,
+00986.webp,0,1024,True,0.14705882352941177,0.8529411764705882,
+00889.webp,0,1024,True,0.6637168141592921,0.33628318584070793,
+00699.webp,0,1024,False,,,no highlight in one or both eyes
+00400.webp,0,1024,True,0.1891891891891892,0.8108108108108107,
+00967.webp,0,1024,True,0.02040816326530612,0.9795918367346939,
+00537.webp,0,1024,True,0.0,1.0,
+00282.webp,0,1024,False,,,no highlight in one or both eyes
+00534.webp,0,1024,False,,,no highlight in one or both eyes
+00831.webp,0,1024,False,,,no highlight in one or both eyes
+00241.webp,0,1024,False,,,no highlight in one or both eyes
+00220.webp,0,1024,False,,,no highlight in one or both eyes
+00862.webp,0,1024,False,,,no highlight in one or both eyes
+00603.webp,0,1024,True,0.0,1.0,
+00429.webp,0,1024,False,,,no highlight in one or both eyes
+00593.webp,0,1024,False,,,no highlight in one or both eyes
+00281.webp,0,1024,True,0.2608695652173913,0.7391304347826086,
+00461.webp,0,1024,True,0.0,1.0,
+00504.webp,0,1024,True,0.4375,0.5625,
+00676.webp,0,1024,True,0.022222222222222223,0.9777777777777777,
+00656.webp,0,1024,False,,,no highlight in one or both eyes
+00717.webp,0,1024,True,0.0,1.0,
+00812.webp,0,1024,True,0.0,1.0,
+00365.webp,0,1024,True,0.6031746031746031,0.39682539682539686,
+00084.webp,0,1024,False,,,no highlight in one or both eyes
+00332.webp,0,1024,True,0.0,1.0,
+00868.webp,0,1024,False,,,no highlight in one or both eyes
+00118.webp,0,1024,False,,,no highlight in one or both eyes
+00498.webp,0,1024,False,,,no highlight in one or both eyes
+00884.webp,0,1024,True,0.618421052631579,0.381578947368421,
+00645.webp,0,1024,False,,,no highlight in one or both eyes
+00343.webp,0,1024,True,0.6646341463414634,0.33536585365853655,
+00194.webp,0,1024,False,,,no highlight in one or both eyes
+00248.webp,0,1024,False,,,eyes too small (38px apart)
+00016.webp,0,1024,True,0.0,1.0,
+00749.webp,0,1024,False,,,no highlight in one or both eyes
+00277.webp,0,1024,False,,,no highlight in one or both eyes
+00119.webp,0,1024,True,0.35789473684210527,0.6421052631578947,
+00851.webp,0,1024,False,,,no highlight in one or both eyes
+00225.webp,0,1024,True,0.0,1.0,
+00380.webp,0,1024,True,0.6942675159235668,0.30573248407643316,
+00813.webp,0,1024,False,,,no highlight in one or both eyes
+00174.webp,0,1024,False,,,no highlight in one or both eyes
+00915.webp,0,1024,True,0.04891304347826087,0.9510869565217391,
+00436.webp,0,1024,True,0.13043478260869565,0.8695652173913043,
+00938.webp,0,1024,False,,,no highlight in one or both eyes
+00952.webp,0,1024,True,0.0,1.0,
+00801.webp,0,1024,True,0.6574074074074074,0.34259259259259256,
+00149.webp,0,1024,False,,,no highlight in one or both eyes
+00714.webp,0,1024,True,0.0,1.0,
+00224.webp,0,1024,False,,,no highlight in one or both eyes
+00046.webp,0,1024,False,,,no highlight in one or both eyes
+00587.webp,0,1024,True,0.0,1.0,
+00649.webp,0,1024,False,,,no highlight in one or both eyes
+00547.webp,0,1024,False,,,no highlight in one or both eyes
+00965.webp,0,1024,True,0.0,1.0,
+00696.webp,0,1024,False,,,no highlight in one or both eyes
+00959.webp,0,1024,False,,,no highlight in one or both eyes
+00027.webp,0,1024,False,,,eyes too small (8px apart)
+00893.webp,0,1024,False,,,no highlight in one or both eyes
+00650.webp,0,1024,True,0.37606837606837606,0.6239316239316239,
+00872.webp,0,1024,True,0.0,1.0,
+00620.webp,0,1024,True,0.0,1.0,
+00876.webp,0,1024,True,0.0,1.0,
+00122.webp,0,1024,False,,,no highlight in one or both eyes
+00852.webp,0,1024,True,0.4533333333333333,0.5466666666666666,
+00881.webp,0,1024,True,0.0,1.0,
+00379.webp,0,1024,False,,,no highlight in one or both eyes
+00966.webp,0,1024,False,,,no highlight in one or both eyes
+00037.webp,0,1024,False,,,no highlight in one or both eyes
+00794.webp,0,1024,True,0.0,1.0,
+00022.webp,0,1024,False,,,no highlight in one or both eyes
+00199.webp,0,1024,False,,,no highlight in one or both eyes
+00189.webp,0,1024,False,,,no highlight in one or both eyes
+00735.webp,0,1024,True,0.20588235294117646,0.7941176470588236,
+00126.webp,0,1024,True,0.0,1.0,
+00490.webp,0,1024,True,0.0,1.0,
+00215.webp,0,1024,True,0.0,1.0,
+00744.webp,0,1024,True,0.0,1.0,
+00062.webp,0,1024,False,,,no highlight in one or both eyes
+00980.webp,0,1024,False,,,no highlight in one or both eyes
+00023.webp,0,1024,False,,,no highlight in one or both eyes
+00557.webp,0,1024,True,0.009708737864077669,0.9902912621359223,
+00435.webp,0,1024,True,0.36507936507936506,0.6349206349206349,
+00635.webp,0,1024,True,0.10810810810810811,0.8918918918918919,
+00810.webp,0,1024,True,0.011428571428571429,0.9885714285714285,
+00866.webp,0,1024,True,0.2565789473684211,0.743421052631579,
+00071.webp,0,1024,True,0.15476190476190477,0.8452380952380952,
+00226.webp,0,1024,True,0.2755905511811024,0.7244094488188977,
+00073.webp,0,1024,False,,,no highlight in one or both eyes
+00662.webp,0,1024,True,0.0,1.0,
+00897.webp,0,1024,True,0.02564102564102564,0.9743589743589743,
+00358.webp,0,1024,False,,,no highlight in one or both eyes
+00446.webp,0,1024,False,,,no highlight in one or both eyes
+00184.webp,0,1024,True,0.02631578947368421,0.9736842105263158,
+00777.webp,0,1024,False,,,no highlight in one or both eyes
+00515.webp,0,1024,True,0.045454545454545456,0.9545454545454546,
+00478.webp,0,1024,False,,,no highlight in one or both eyes
+00040.webp,0,1024,True,0.0,1.0,
+00880.webp,0,1024,True,0.0,1.0,
+00771.webp,0,1024,True,0.14285714285714285,0.8571428571428572,
+00856.webp,0,1024,False,,,no highlight in one or both eyes
+00791.webp,0,1024,True,0.1037037037037037,0.8962962962962963,
+00204.webp,0,1024,False,,,no highlight in one or both eyes
+00770.webp,0,1024,True,0.39906103286384975,0.6009389671361502,
+00367.webp,0,1024,False,,,no highlight in one or both eyes
+00821.webp,0,1024,True,0.0,1.0,
+00481.webp,0,1024,False,,,no highlight in one or both eyes
+00583.webp,0,1024,True,0.0,1.0,
+00173.webp,0,1024,True,0.0,1.0,
+00807.webp,0,1024,True,0.0,1.0,
+00688.webp,0,1024,True,0.7777777777777778,0.2222222222222222,
+00921.webp,0,1024,False,,,no highlight in one or both eyes
+00059.webp,0,1024,True,0.0,1.0,
+00692.webp,0,1024,True,0.18181818181818182,0.8181818181818181,
+00162.webp,0,1024,False,,,no highlight in one or both eyes
+00165.webp,0,1024,False,,,no highlight in one or both eyes
+00350.webp,0,1024,False,,,no highlight in one or both eyes
+00542.webp,0,1024,True,0.2222222222222222,0.7777777777777778,
+00970.webp,0,1024,True,0.8211382113821138,0.17886178861788615,
+00120.webp,0,1024,False,,,no highlight in one or both eyes
+00611.webp,0,1024,True,0.0,1.0,
+00452.webp,0,1024,False,,,no highlight in one or both eyes
+00681.webp,0,1024,False,,,no highlight in one or both eyes
+00179.webp,0,1024,True,0.0,1.0,
+00013.webp,0,1024,True,0.057692307692307696,0.9423076923076923,
+00482.webp,0,1024,True,0.5904255319148937,0.40957446808510634,
+00697.webp,0,1024,True,0.1270718232044199,0.8729281767955801,
+00419.webp,0,1024,False,,,no highlight in one or both eyes
+00582.webp,0,1024,True,0.06666666666666667,0.9333333333333333,
+00900.webp,0,1024,False,,,no highlight in one or both eyes
+00318.webp,0,1024,True,0.0,1.0,
+00664.webp,0,1024,True,0.35555555555555557,0.6444444444444444,
+00833.webp,0,1024,False,,,no highlight in one or both eyes
+00397.webp,0,1024,False,,,no highlight in one or both eyes
+00673.webp,0,1024,True,0.6538461538461539,0.34615384615384615,
+00737.webp,0,1024,True,0.0,1.0,
+00157.webp,0,1024,False,,,no highlight in one or both eyes
+00574.webp,0,1024,True,0.3548387096774194,0.6451612903225806,
+00707.webp,0,1024,False,,,no highlight in one or both eyes
+00012.webp,0,1024,True,0.0,1.0,
+00468.webp,0,1024,True,0.0,1.0,
+00080.webp,0,1024,False,,,no highlight in one or both eyes
+00825.webp,0,1024,True,0.0,1.0,
+00805.webp,0,1024,True,0.0,1.0,
+00774.webp,0,1024,False,,,no highlight in one or both eyes
+00287.webp,0,1024,False,,,no highlight in one or both eyes
+00138.webp,0,1024,False,,,no highlight in one or both eyes
+00245.webp,0,1024,True,0.0,1.0,
+00493.webp,0,1024,False,,,no highlight in one or both eyes
+00360.webp,0,1024,False,,,no highlight in one or both eyes
+00624.webp,0,1024,False,,,no highlight in one or both eyes
+00883.webp,0,1024,False,,,no highlight in one or both eyes
+00689.webp,0,1024,True,0.24561403508771928,0.7543859649122807,
+00751.webp,0,1024,False,,,no highlight in one or both eyes
+00604.webp,0,1024,False,,,no highlight in one or both eyes
+00648.webp,0,1024,True,0.045112781954887216,0.9548872180451128,
+yellow_1026.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1041.png,1,1024,True,0.0,1.0,
+yellow_1007.png,1,1024,True,0.3220338983050847,0.6779661016949152,
+model_1028.png,1,1024,False,,,no highlight in one or both eyes
+model_1047.png,1,1024,True,0.5,0.5,
+eceleb_1037.png,1,1024,False,,,no highlight in one or both eyes
+kids_1003.png,1,1024,True,0.3953488372093023,0.6046511627906976,
+eceleb_1041.png,1,1024,False,,,no highlight in one or both eyes
+model_1046.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1001.png,1,1024,True,0.5166666666666667,0.4833333333333333,
+kids_1005.png,1,1024,True,0.0,1.0,
+kids_103.png,1,1024,True,0.0,1.0,
+kids_1024.png,1,1024,True,0.3611111111111111,0.6388888888888888,
+yellow_1010.png,1,1024,True,0.875,0.125,
+kids_1001.png,1,1024,True,0.0,1.0,
+yellow_1045.png,1,1024,True,0.0,1.0,
+model_1015.png,1,1024,False,,,no highlight in one or both eyes
+model_0.png,1,1024,False,,,no highlight in one or both eyes
+model_1050.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1032.png,1,1024,True,0.15714285714285714,0.8428571428571429,
+eceleb_1018.png,1,1024,False,,,no highlight in one or both eyes
+kids_1023.png,1,1024,True,0.08333333333333333,0.9166666666666666,
+model_101.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1040.png,1,1024,True,0.0,1.0,
+kids_1019.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1045.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1002.png,1,1024,True,0.16842105263157894,0.8315789473684211,
+model_1026.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1049.png,1,1024,True,0.0196078431372549,0.9803921568627451,
+yellow_1000.png,1,1024,True,0.0967741935483871,0.9032258064516129,
+kids_104.png,1,1024,True,0.05,0.95,
+yellow_1029.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_105.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1039.png,1,1024,True,0.1,0.9,
+eceleb_1016.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1023.png,1,1024,True,0.40298507462686567,0.5970149253731343,
+yellow_1018.png,1,1024,True,0.6201550387596899,0.3798449612403101,
+kids_1007.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1009.png,1,1024,True,0.06666666666666667,0.9333333333333333,
+kids_102.png,1,1024,True,0.0,1.0,
+model_1034.png,1,1024,False,,,no highlight in one or both eyes
+kids_1032.png,1,1024,True,0.3,0.7,
+kids_1044.png,1,1024,True,0.0,1.0,
+model_1037.png,1,1024,True,0.0,1.0,
+yellow_1017.png,1,1024,True,0.1774193548387097,0.8225806451612903,
+yellow_1042.png,1,1024,True,0.0,1.0,
+yellow_1050.png,1,1024,False,,,no highlight in one or both eyes
+model_102.png,1,1024,False,,,no highlight in one or both eyes
+yellow_100.png,1,1024,True,0.25,0.75,
+model_1011.png,1,1024,True,0.057971014492753624,0.9420289855072463,
+yellow_10.png,1,1024,True,0.09090909090909091,0.9090909090909091,
+model_1006.png,1,1024,True,0.0,1.0,
+kids_1046.png,1,1024,True,0.4866666666666667,0.5133333333333333,
+model_103.png,1,1024,False,,,no highlight in one or both eyes
+kids_1000.png,1,1024,True,0.08,0.92,
+kids_1008.png,1,1024,True,0.0,1.0,
+kids_1047.png,1,1024,True,0.0,1.0,
+model_1041.png,1,1024,False,,,no highlight in one or both eyes
+kids_1027.png,1,1024,True,0.4,0.6,
+eceleb_1008.png,1,1024,True,0.0,1.0,
+eceleb_1046.png,1,1024,True,0.5686274509803921,0.43137254901960786,
+eceleb_1049.png,1,1024,True,0.0,1.0,
+kids_1022.png,1,1024,False,,,no highlight in one or both eyes
+kids_1037.png,1,1024,True,0.0,1.0,
+kids_1038.png,1,1024,True,0.0,1.0,
+kids_1045.png,1,1024,True,0.0,1.0,
+eceleb_1035.png,1,1024,True,0.6153846153846154,0.3846153846153846,
+yellow_1015.png,1,1024,True,0.10810810810810811,0.8918918918918919,
+eceleb_1022.png,1,1024,True,0.2909090909090909,0.7090909090909091,
+yellow_101.png,1,1024,True,0.0,1.0,
+model_1048.png,1,1024,False,,,no highlight in one or both eyes
+kids_0.png,1,1024,True,0.0,1.0,
+model_1049.png,1,1024,True,0.5081967213114754,0.4918032786885246,
+yellow_0.png,1,1024,True,0.2619047619047619,0.7380952380952381,
+kids_1043.png,1,1024,True,0.0,1.0,
+yellow_1034.png,1,1024,True,0.208955223880597,0.791044776119403,
+model_1032.png,1,1024,True,0.24545454545454545,0.7545454545454545,
+eceleb_1044.png,1,1024,False,,,no highlight in one or both eyes
+kids_1028.png,1,1024,True,0.15789473684210525,0.8421052631578947,
+yellow_1021.png,1,1024,True,0.1,0.9,
+model_1016.png,1,1024,False,,,no highlight in one or both eyes
+kids_1015.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1025.png,1,1024,True,0.7307692307692307,0.2692307692307693,
+kids_1030.png,1,1024,True,0.0,1.0,
+yellow_1023.png,1,1024,True,0.0,1.0,
+yellow_1025.png,1,1024,True,0.08108108108108109,0.9189189189189189,
+eceleb_1030.png,1,1024,True,0.10493827160493827,0.8950617283950617,
+yellow_104.png,1,1024,True,0.7328767123287672,0.26712328767123283,
+model_10.png,1,1024,True,0.43478260869565216,0.5652173913043479,
+kids_1036.png,1,1024,True,0.0,1.0,
+kids_1029.png,1,1024,True,0.0,1.0,
+model_1001.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1039.png,1,1024,True,0.20408163265306123,0.7959183673469388,
+yellow_1024.png,1,1024,True,0.12307692307692308,0.8769230769230769,
+yellow_102.png,1,1024,True,0.5845070422535211,0.4154929577464789,
+model_1010.png,1,1024,True,0.02564102564102564,0.9743589743589743,
+model_1030.png,1,1024,True,0.5,0.5,
+kids_1014.png,1,1024,True,0.0,1.0,
+kids_10.png,1,1024,True,0.058823529411764705,0.9411764705882353,
+model_1002.png,1,1024,True,0.0821917808219178,0.9178082191780822,
+model_1.png,1,1024,True,0.24166666666666667,0.7583333333333333,
+model_1024.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1035.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1028.png,1,1024,True,0.5283018867924528,0.4716981132075472,
+model_1017.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1027.png,1,1024,True,0.6666666666666666,0.33333333333333337,
+kids_1040.png,1,1024,True,0.0,1.0,
+kids_1017.png,1,1024,True,0.0,1.0,
+kids_1009.png,1,1024,True,0.0,1.0,
+yellow_1019.png,1,1024,True,0.08,0.92,
+model_1039.png,1,1024,True,0.04918032786885246,0.9508196721311475,
+kids_1.png,1,1024,True,0.6666666666666666,0.33333333333333337,
+model_1045.png,1,1024,True,0.2558139534883721,0.7441860465116279,
+kids_1039.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1031.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1033.png,1,1024,True,0.0,1.0,
+yellow_1012.png,1,1024,True,0.0,1.0,
+kids_1025.png,1,1024,True,0.0,1.0,
+yellow_1044.png,1,1024,True,0.1276595744680851,0.8723404255319149,
+kids_1033.png,1,1024,True,0.16279069767441862,0.8372093023255813,
+eceleb_1024.png,1,1024,True,0.6111111111111112,0.38888888888888884,
+eceleb_1021.png,1,1024,True,0.32,0.6799999999999999,
+yellow_1.png,1,1024,True,0.0,1.0,
+yellow_1036.png,1,1024,True,0.03225806451612903,0.967741935483871,
+yellow_1008.png,1,1024,True,0.5,0.5,
+eceleb_104.png,1,1024,True,0.010869565217391304,0.9891304347826086,
+eceleb_1020.png,1,1024,True,0.28,0.72,
+kids_1004.png,1,1024,True,0.5058823529411764,0.49411764705882355,
+eceleb_1003.png,1,1024,True,0.12903225806451613,0.8709677419354839,
+yellow_1048.png,1,1024,True,0.34782608695652173,0.6521739130434783,
+yellow_1040.png,1,1024,True,0.1,0.9,
+model_1019.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1014.png,1,1024,True,0.13043478260869565,0.8695652173913043,
+eceleb_1048.png,1,1024,True,0.13402061855670103,0.865979381443299,
+kids_1011.png,1,1024,True,0.0,1.0,
+kids_1016.png,1,1024,True,0.0,1.0,
+model_1038.png,1,1024,True,0.0,1.0,
+model_1020.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1003.png,1,1024,True,0.37755102040816324,0.6224489795918368,
+kids_1048.png,1,1024,True,0.0,1.0,
+kids_1002.png,1,1024,True,0.38181818181818183,0.6181818181818182,
+model_1014.png,1,1024,True,0.23529411764705882,0.7647058823529411,
+yellow_1013.png,1,1024,True,0.07142857142857142,0.9285714285714286,
+kids_1035.png,1,1024,True,0.17777777777777778,0.8222222222222222,
+model_100.png,1,1024,False,,,no highlight in one or both eyes
+kids_101.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1036.png,1,1024,True,0.025423728813559324,0.9745762711864406,
+yellow_1047.png,1,1024,True,0.2,0.8,
+model_1009.png,1,1024,True,0.04878048780487805,0.9512195121951219,
+kids_1049.png,1,1024,True,0.0,1.0,
+eceleb_101.png,1,1024,True,0.19166666666666668,0.8083333333333333,
+kids_1020.png,1,1024,True,0.0,1.0,
+yellow_1046.png,1,1024,True,0.4,0.6,
+yellow_1004.png,1,1024,True,0.041666666666666664,0.9583333333333334,
+model_1018.png,1,1024,False,,,no highlight in one or both eyes
+model_1007.png,1,1024,False,,,no highlight in one or both eyes
+model_1008.png,1,1024,True,0.2564102564102564,0.7435897435897436,
+eceleb_1029.png,1,1024,True,0.4605263157894737,0.5394736842105263,
+eceleb_1026.png,1,1024,True,0.3114754098360656,0.6885245901639344,
+model_104.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1033.png,1,1024,True,0.15151515151515152,0.8484848484848485,
+kids_1006.png,1,1024,True,0.005649717514124294,0.9943502824858758,
+yellow_103.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1020.png,1,1024,True,0.0,1.0,
+model_1042.png,1,1024,True,0.0,1.0,
+eceleb_1019.png,1,1024,True,0.1888111888111888,0.8111888111888113,
+kids_1041.png,1,1024,True,0.0,1.0,
+model_1035.png,1,1024,True,0.0,1.0,
+kids_1026.png,1,1024,True,0.0,1.0,
+model_1044.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1027.png,1,1024,True,0.6865671641791045,0.31343283582089554,
+model_1022.png,1,1024,True,0.0,1.0,
+kids_1050.png,1,1024,True,0.0,1.0,
+model_1004.png,1,1024,True,0.0,1.0,
+eceleb_1042.png,1,1024,True,0.33,0.6699999999999999,
+model_1036.png,1,1024,True,0.15384615384615385,0.8461538461538461,
+eceleb_1047.png,1,1024,False,,,no highlight in one or both eyes
+model_1021.png,1,1024,False,,,no highlight in one or both eyes
+eceleb_1050.png,1,1024,True,0.5301204819277109,0.4698795180722891,
+kids_1034.png,1,1024,True,0.03614457831325301,0.963855421686747,
+model_1025.png,1,1024,False,,,no highlight in one or both eyes
+model_1013.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1032.png,1,1024,True,0.07096774193548387,0.9290322580645162,
+yellow_1037.png,1,1024,True,0.33783783783783783,0.6621621621621622,
+yellow_1005.png,1,1024,True,0.2727272727272727,0.7272727272727273,
+yellow_1006.png,1,1024,True,0.0,1.0,
+yellow_1022.png,1,1024,True,0.0,1.0,
+yellow_105.png,1,1024,True,0.36551724137931035,0.6344827586206896,
+model_1033.png,1,1024,True,0.0,1.0,
+eceleb_1034.png,1,1024,True,0.10144927536231885,0.8985507246376812,
+kids_1018.png,1,1024,True,0.0,1.0,
+model_1029.png,1,1024,False,,,no highlight in one or both eyes
+model_1012.png,1,1024,True,0.05263157894736842,0.9473684210526316,
+eceleb_1038.png,1,1024,True,0.1509433962264151,0.8490566037735849,
+model_1031.png,1,1024,True,0.025,0.975,
+kids_1042.png,1,1024,True,0.0,1.0,
+model_1023.png,1,1024,False,,,no highlight in one or both eyes
+model_1005.png,1,1024,True,0.0,1.0,
+yellow_1030.png,1,1024,True,0.013888888888888888,0.9861111111111112,
+model_1000.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1043.png,1,1024,True,0.0,1.0,
+yellow_1038.png,1,1024,True,0.09523809523809523,0.9047619047619048,
+kids_100.png,1,1024,True,0.0,1.0,
+yellow_1028.png,1,1024,True,0.4014084507042254,0.5985915492957746,
+kids_1013.png,1,1024,True,0.0,1.0,
+model_1027.png,1,1024,False,,,no highlight in one or both eyes
+kids_1012.png,1,1024,True,0.1696969696969697,0.8303030303030303,
+model_105.png,1,1024,True,0.028169014084507043,0.971830985915493,
+eceleb_1043.png,1,1024,True,0.20161290322580644,0.7983870967741935,
+kids_1021.png,1,1024,True,0.0,1.0,
+model_1040.png,1,1024,False,,,no highlight in one or both eyes
+yellow_1016.png,1,1024,True,0.109375,0.890625,
+kids_105.png,1,1024,True,0.36363636363636365,0.6363636363636364,
+kids_1010.png,1,1024,True,0.3,0.7,
+yellow_1011.png,1,1024,True,0.5172413793103449,0.48275862068965514,
+eceleb_103.png,1,1024,True,0.020202020202020204,0.9797979797979798,
+kids_1031.png,1,1024,True,0.2549019607843137,0.7450980392156863,
+yellow_1031.png,1,1024,True,0.0,1.0,
+model_1043.png,1,1024,False,,,no highlight in one or both eyes
+model_1003.png,1,1024,True,0.055865921787709494,0.9441340782122905,

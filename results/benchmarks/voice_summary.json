@@ -1,0 +1,12 @@
+{
+  "benchmark": "Voice-clone detectors on In-the-Wild (shard 0 sample: 750 real + 750 fake, first 6 s)",
+  "mo-thecreator/Deepfake-audio-detection": "AUC 0.947, EER 11.4%, caught 80.5% at 5% real flagged, acc@0.5 88.0%",
+  "Gustking/wav2vec2-large-xlsr-deepfake-audio-classification": "AUC 0.942, EER 13.1%, caught 80.5% at 5% real flagged, acc@0.5 82.6%",
+  "Bisher/wav2vec2_ASV_deepfake_audio_detection": "AUC 0.843, EER 22.1%, caught 44.5% at 5% real flagged, acc@0.5 52.9%",
+  "Hemgg/Deepfake-audio-detection": "AUC 0.793, EER 26.7%, caught 21.9% at 5% real flagged, acc@0.5 74.1%",
+  "Vansh180/deepfake-audio-wav2vec2": "AUC 0.595, EER 45.6%, caught 5.3% at 5% real flagged, acc@0.5 51.1%",
+  "MelodyMachine/Deepfake-audio-detection-V2": "AUC 0.417, EER 53.3%, caught 0.0% at 5% real flagged, acc@0.5 42.5%",
+  "per_clip_csv": "voice_eval.csv",
+  "date": "2026-10-31T17:55:49",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

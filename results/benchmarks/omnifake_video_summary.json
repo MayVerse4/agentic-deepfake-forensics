@@ -1,0 +1,6 @@
+{
+  "benchmark": "OmniFake-OOD: Video: REAL vs fake video",
+  "Community Forensics, 8 frames (app)": "AUC(app) 0.766, AUC 0.769, caught 49.4%, flagged 5.4%, acc 64.5%",
+  "date": "2026-11-16T20:53:52",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

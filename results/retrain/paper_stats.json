@@ -1,0 +1,327 @@
+{
+ "deployed": {
+  "val_threshold_logit_at_5pct_fpr": 6.8176,
+  "temperature": 4.3536,
+  "ff_val": {
+   "n_frames": 8400,
+   "n_videos": 840,
+   "auc_frame": 0.9712,
+   "auc_frame_ci95": [
+    0.9619,
+    0.979
+   ],
+   "auc_video": 0.9878,
+   "tpr_at_val_thr": 0.7211,
+   "fpr_at_val_thr": 0.0136,
+   "ece_raw": 0.0404,
+   "brier_raw": 0.0533,
+   "ece_temp": 0.0822,
+   "brier_temp": 0.0578
+  },
+  "df40_val": {
+   "n_frames": 10380,
+   "n_videos": 3571,
+   "auc_frame": 0.7313,
+   "auc_frame_ci95": [
+    0.7066,
+    0.7542
+   ],
+   "auc_video": 0.7349,
+   "tpr_at_val_thr": 0.3134,
+   "fpr_at_val_thr": 0.0583,
+   "ece_raw": 0.2911,
+   "brier_raw": 0.3162,
+   "ece_temp": 0.1809,
+   "brier_temp": 0.236
+  },
+  "df40_test": {
+   "n_frames": 7332,
+   "n_videos": 908,
+   "auc_frame": 0.6436,
+   "auc_frame_ci95": [
+    0.5336,
+    0.7635
+   ],
+   "auc_video": 0.6285,
+   "tpr_at_val_thr": 0.2189,
+   "fpr_at_val_thr": 0.0332,
+   "ece_raw": 0.2857,
+   "brier_raw": 0.3219,
+   "ece_temp": 0.1227,
+   "brier_temp": 0.2416,
+   "per_set_auc": {
+    "CollabDiff": 0.6991,
+    "MidJourney": 0.5675,
+    "deepfacelab": 0.7777,
+    "heygen": 0.6533,
+    "stargan": 0.6176,
+    "starganv2": 0.3835,
+    "styleclip": 0.8978
+   }
+  }
+ },
+ "s0": {
+  "val_threshold_logit_at_5pct_fpr": 1.1101,
+  "temperature": 1.3967,
+  "ff_val": {
+   "n_frames": 8400,
+   "n_videos": 840,
+   "auc_frame": 0.9687,
+   "auc_frame_ci95": [
+    0.9594,
+    0.9766
+   ],
+   "auc_video": 0.9864,
+   "tpr_at_val_thr": 0.907,
+   "fpr_at_val_thr": 0.1,
+   "ece_raw": 0.0362,
+   "brier_raw": 0.0551,
+   "ece_temp": 0.0319,
+   "brier_temp": 0.0536,
+   "vs_reference": {
+    "delta_auc_frame": -0.0026,
+    "delta_ci95": [
+     -0.0091,
+     0.0042
+    ],
+    "p_cluster_bootstrap": 0.423,
+    "p_delong_video": 0.594378
+   }
+  },
+  "df40_val": {
+   "n_frames": 10380,
+   "n_videos": 3571,
+   "auc_frame": 0.9918,
+   "auc_frame_ci95": [
+    0.9892,
+    0.9944
+   ],
+   "auc_video": 0.9996,
+   "tpr_at_val_thr": 0.9441,
+   "fpr_at_val_thr": 0.0386,
+   "ece_raw": 0.0382,
+   "brier_raw": 0.0417,
+   "ece_temp": 0.0434,
+   "brier_temp": 0.0412,
+   "vs_reference": {
+    "delta_auc_frame": 0.2605,
+    "delta_ci95": [
+     0.2377,
+     0.2846
+    ],
+    "p_cluster_bootstrap": 0.0,
+    "p_delong_video": 0.0
+   }
+  },
+  "df40_test": {
+   "n_frames": 7332,
+   "n_videos": 908,
+   "auc_frame": 0.6339,
+   "auc_frame_ci95": [
+    0.5166,
+    0.7782
+   ],
+   "auc_video": 0.6563,
+   "tpr_at_val_thr": 0.2402,
+   "fpr_at_val_thr": 0.0756,
+   "ece_raw": 0.3322,
+   "brier_raw": 0.3526,
+   "ece_temp": 0.3059,
+   "brier_temp": 0.3367,
+   "per_set_auc": {
+    "CollabDiff": 0.4473,
+    "MidJourney": 0.685,
+    "deepfacelab": 0.6327,
+    "heygen": 0.8675,
+    "stargan": 0.834,
+    "starganv2": 0.5198,
+    "styleclip": 0.3049
+   },
+   "vs_reference": {
+    "delta_auc_frame": -0.0097,
+    "delta_ci95": [
+     -0.1379,
+     0.1343
+    ],
+    "p_cluster_bootstrap": 0.898,
+    "p_delong_video": 0.389388
+   }
+  }
+ },
+ "s1": {
+  "val_threshold_logit_at_5pct_fpr": 1.1536,
+  "temperature": 1.5248,
+  "ff_val": {
+   "n_frames": 8400,
+   "n_videos": 840,
+   "auc_frame": 0.9662,
+   "auc_frame_ci95": [
+    0.9556,
+    0.9755
+   ],
+   "auc_video": 0.9842,
+   "tpr_at_val_thr": 0.8881,
+   "fpr_at_val_thr": 0.0857,
+   "ece_raw": 0.0498,
+   "brier_raw": 0.0617,
+   "ece_temp": 0.048,
+   "brier_temp": 0.0592,
+   "vs_reference": {
+    "delta_auc_frame": -0.005,
+    "delta_ci95": [
+     -0.0119,
+     0.0017
+    ],
+    "p_cluster_bootstrap": 0.132,
+    "p_delong_video": 0.159881
+   }
+  },
+  "df40_val": {
+   "n_frames": 10380,
+   "n_videos": 3571,
+   "auc_frame": 0.9923,
+   "auc_frame_ci95": [
+    0.9893,
+    0.9951
+   ],
+   "auc_video": 0.9996,
+   "tpr_at_val_thr": 0.9472,
+   "fpr_at_val_thr": 0.0419,
+   "ece_raw": 0.0383,
+   "brier_raw": 0.0403,
+   "ece_temp": 0.0458,
+   "brier_temp": 0.04,
+   "vs_reference": {
+    "delta_auc_frame": 0.2611,
+    "delta_ci95": [
+     0.2392,
+     0.2824
+    ],
+    "p_cluster_bootstrap": 0.0,
+    "p_delong_video": 0.0
+   }
+  },
+  "df40_test": {
+   "n_frames": 7332,
+   "n_videos": 908,
+   "auc_frame": 0.6555,
+   "auc_frame_ci95": [
+    0.5281,
+    0.8017
+   ],
+   "auc_video": 0.7219,
+   "tpr_at_val_thr": 0.2671,
+   "fpr_at_val_thr": 0.0679,
+   "ece_raw": 0.3133,
+   "brier_raw": 0.3377,
+   "ece_temp": 0.2782,
+   "brier_temp": 0.3182,
+   "per_set_auc": {
+    "CollabDiff": 0.5354,
+    "MidJourney": 0.7227,
+    "deepfacelab": 0.6518,
+    "heygen": 0.823,
+    "stargan": 0.8505,
+    "starganv2": 0.5194,
+    "styleclip": 0.3281
+   },
+   "vs_reference": {
+    "delta_auc_frame": 0.0119,
+    "delta_ci95": [
+     -0.1296,
+     0.1666
+    ],
+    "p_cluster_bootstrap": 0.82,
+    "p_delong_video": 0.001851
+   }
+  }
+ },
+ "s2": {
+  "val_threshold_logit_at_5pct_fpr": 0.9252,
+  "temperature": 1.4896,
+  "ff_val": {
+   "n_frames": 8400,
+   "n_videos": 840,
+   "auc_frame": 0.9649,
+   "auc_frame_ci95": [
+    0.9541,
+    0.974
+   ],
+   "auc_video": 0.9835,
+   "tpr_at_val_thr": 0.9037,
+   "fpr_at_val_thr": 0.1029,
+   "ece_raw": 0.0447,
+   "brier_raw": 0.0601,
+   "ece_temp": 0.0422,
+   "brier_temp": 0.0581,
+   "vs_reference": {
+    "delta_auc_frame": -0.0064,
+    "delta_ci95": [
+     -0.0133,
+     0.0001
+    ],
+    "p_cluster_bootstrap": 0.053,
+    "p_delong_video": 0.113858
+   }
+  },
+  "df40_val": {
+   "n_frames": 10380,
+   "n_videos": 3571,
+   "auc_frame": 0.9925,
+   "auc_frame_ci95": [
+    0.9896,
+    0.995
+   ],
+   "auc_video": 0.9996,
+   "tpr_at_val_thr": 0.9477,
+   "fpr_at_val_thr": 0.038,
+   "ece_raw": 0.03,
+   "brier_raw": 0.0378,
+   "ece_temp": 0.0366,
+   "brier_temp": 0.0375,
+   "vs_reference": {
+    "delta_auc_frame": 0.2612,
+    "delta_ci95": [
+     0.2387,
+     0.2838
+    ],
+    "p_cluster_bootstrap": 0.0,
+    "p_delong_video": 0.0
+   }
+  },
+  "df40_test": {
+   "n_frames": 7332,
+   "n_videos": 908,
+   "auc_frame": 0.6597,
+   "auc_frame_ci95": [
+    0.5268,
+    0.799
+   ],
+   "auc_video": 0.7252,
+   "tpr_at_val_thr": 0.2876,
+   "fpr_at_val_thr": 0.0804,
+   "ece_raw": 0.3088,
+   "brier_raw": 0.3345,
+   "ece_temp": 0.2776,
+   "brier_temp": 0.3168,
+   "per_set_auc": {
+    "CollabDiff": 0.5616,
+    "MidJourney": 0.7137,
+    "deepfacelab": 0.6444,
+    "heygen": 0.8622,
+    "stargan": 0.8641,
+    "starganv2": 0.5245,
+    "styleclip": 0.2824
+   },
+   "vs_reference": {
+    "delta_auc_frame": 0.0161,
+    "delta_ci95": [
+     -0.1289,
+     0.1672
+    ],
+    "p_cluster_bootstrap": 0.846,
+    "p_delong_video": 0.001829
+   }
+  }
+ }
+}

@@ -1,0 +1,60 @@
+{
+  "benchmark": "AI images: AIGIBench independent benchmark (998 images, 10 subsets)",
+  "Community Forensics alone": "AUC 0.965, caught 79.8%, real flagged 3.7%",
+  "B-Free alone": "AUC 0.958, caught 81.3%, real flagged 5.1%",
+  "Both combined": "AUC 0.981, caught 88.0%, real flagged 3.9%",
+  "per_group_caught_pct": {
+    "CommunityAI": [
+      64.1,
+      80.0,
+      82.4
+    ],
+    "DALLE-3": [
+      99.2,
+      100.0,
+      100.0
+    ],
+    "FLUX1-dev": [
+      76.6,
+      36.1,
+      61.6
+    ],
+    "Imagen3": [
+      47.5,
+      68.9,
+      65.6
+    ],
+    "InstantID": [
+      75.5,
+      98.5,
+      100.0
+    ],
+    "Midjourney": [
+      82.1,
+      85.5,
+      87.8
+    ],
+    "SD3": [
+      89.9,
+      100.0,
+      100.0
+    ],
+    "SDXL": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "SocialRF": [
+      64.7,
+      81.2,
+      84.4
+    ],
+    "StyleGAN-XL": [
+      100.0,
+      66.5,
+      100.0
+    ]
+  },
+  "date": "2026-10-31T18:26:56",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

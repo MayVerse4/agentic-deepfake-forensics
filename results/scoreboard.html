@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Deepfake Detection Scoreboard</title><style>
+  @page {
+    size: A4 landscape;
+    margin: 8mm 10mm 8mm 10mm;
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #0f172a;
+    background: #ffffff;
+    font-size: 11.5px;
+    line-height: 1.35;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 6px;
+    margin-bottom: 8px;
+  }
+  .title-group h1 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1e3a8a;
+    margin: 0 0 2px 0;
+    letter-spacing: -0.02em;
+  }
+  .title-group p {
+    font-size: 10.5px;
+    color: #475569;
+    margin: 0;
+    font-weight: 500;
+  }
+  .meta-badges {
+    text-align: right;
+    font-size: 9.5px;
+    color: #64748b;
+  }
+  .meta-badge {
+    display: inline-block;
+    background: #f1f5f9;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    padding: 2px 6px;
+    font-weight: 600;
+    color: #334155;
+    margin-left: 4px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+  }
+  th {
+    background: #1e40af;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 6px 7px;
+    text-align: left;
+    border: 1px solid #1e3a8a;
+  }
+  td {
+    padding: 6px 7px;
+    border: 1px solid #e2e8f0;
+    vertical-align: top;
+    font-size: 10.5px;
+  }
+  tr:nth-child(even) td {
+    background: #f8fafc;
+  }
+
+  .col-task {
+    width: 16%;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .col-bench {
+    width: 17%;
+    color: #475569;
+  }
+  .col-metric {
+    width: 12%;
+    font-weight: 600;
+    color: #334155;
+  }
+  .col-single {
+    width: 18%;
+    background: #fffdf5 !important;
+    border-left: 2px solid #f59e0b;
+  }
+  .col-combo {
+    width: 21%;
+    background: #f0fdf4 !important;
+    border-left: 2px solid #10b981;
+    font-weight: 600;
+  }
+  .col-imp {
+    width: 16%;
+    background: #eff6ff !important;
+    font-weight: 700;
+    color: #1d4ed8;
+  }
+
+  .pill-red {
+    display: inline-block;
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9.5px;
+    font-weight: 700;
+  }
+  .pill-green {
+    display: inline-block;
+    background: #dcfce7;
+    color: #166534;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9.5px;
+    font-weight: 700;
+  }
+  .tool-tag {
+    font-size: 9px;
+    color: #64748b;
+    font-weight: normal;
+    display: block;
+    margin-top: 1px;
+  }
+
+  .kpi-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 2px;
+  }
+  .kpi-card {
+    border: 1px solid #cbd5e1;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 6px 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  }
+  .kpi-card.highlight {
+    border-left: 3px solid #2563eb;
+    background: #f8fafc;
+  }
+  .kpi-title {
+    font-size: 9px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+  }
+  .kpi-val {
+    font-size: 15px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.1;
+  }
+  .kpi-sub {
+    font-size: 9px;
+    color: #16a34a;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #cbd5e1;
+    padding-top: 5px;
+    margin-top: 6px;
+    font-size: 9px;
+    color: #64748b;
+  }
+</style>
+    <style>.kpi-card{border:1px solid #cbd5e1;border-left:4px solid #2563eb;border-radius:4px;padding:6px 8px}
+    .kpi-label{font-size:9px;font-weight:700;color:#475569;text-transform:uppercase}.kpi-value{font-size:17px;font-weight:800;color:#1e3a8a}
+    .kpi-sub{font-size:9px;color:#15803d;font-weight:600}.foot{font-size:8.5px;color:#64748b;margin-top:4px}
+    td{padding:3px 6px !important;font-size:9.6px !important;line-height:1.25 !important} th{padding:4px 6px !important;font-size:9px !important}
+    .kpi-value{font-size:15px} .kpi-card{padding:4px 8px} .header{margin-bottom:5px !important}</style></head><body>
+    <div class="header"><div class="title-group"><h1>End-to-End Deepfake Detection Pipeline: Scoreboard</h1>
+    <p>Single detectors vs. the agentic multi-model pipeline, recomputed from the saved test runs</p></div>
+    <div class="meta-badges">Hardware: NVIDIA GeForce RTX 4050 Laptop GPU<br><span class="meta-badge">Held-out half, 5 random splits</span>
+    <span class="meta-badge">Threshold set for &le; 5% real flagged</span><span class="meta-badge">Generated 2026-11-16</span></div></div>
+    <table><tr><th>Modality / task</th><th>Benchmark dataset</th><th>Metrics</th><th>Without combination (single baseline)</th>
+    <th>With combination (app pipeline)</th><th>Measured gain / note</th></tr><tr><td class='col-task'>AI-Generated Images<span class='tool-tag'>Full-frame synthesis</span></td><td class='col-bench'><b>AIGIBench</b> (2025, independent)<br>998 images (498 real / 500 AI)<br><i>10 generators &amp; in-the-wild subsets</i></td><td class='col-metric'>AUC<br>Recall (@&le;5% FPR)<br>Accuracy<br>F1</td><td class='col-single'><b>0.965</b> AUC<br><b>79.8% caught</b> (3.7% real flagged)<br>88.1% accuracy<br>86.9% F1<span class='tool-tag'>Community Forensics</span></td><td class='col-combo'><b>0.990</b> AUC<br><b>95.2% caught</b> (4.4% real flagged)<br>95.4% accuracy<br>95.4% F1<span class='tool-tag'>Community Forensics + B-Free + GAPL (app)</span></td><td class='col-imp'>+15.4 pts caught<br>+7.3 pts accuracy<br>vs CF + B-Free: 88.0% caught (GAPL adds +7.2 pts)</td></tr><tr><td class='col-task'>Locally Edited Images<span class='tool-tag'>AI inpainting</span></td><td class='col-bench'><b>CocoGlide</b><br>1,024 images<br><i>512 real + 512 AI-inpainted</i></td><td class='col-metric'>AUC<br>Recall (@&le;5% FPR)<br>Accuracy<br>F1</td><td class='col-single'><b>0.737</b> AUC<br><b>29.0% caught</b> (5.0% real flagged)<br>62.0% accuracy<br>43.3% F1<span class='tool-tag'>TruFor alone (first app version)</span></td><td class='col-combo'><b>0.886</b> AUC<br><b>66.3% caught</b> (4.2% real flagged)<br>81.1% accuracy<br>77.8% F1<span class='tool-tag'>TruFor + Mesorch + CF + B-Free (app)</span></td><td class='col-imp'>+37.3 pts caught<br>+19.1 pts accuracy<br>Box drawn by Mesorch (pixel F1 0.45 vs 0.36)</td></tr><tr><td class='col-task'>AI-Generated Videos<span class='tool-tag'>Text/image-to-video</span></td><td class='col-bench'><b>GenVideo</b>, re-encoded to one format<br>1104 videos (519 real / 585 AI)<br><i>10 generators</i></td><td class='col-metric'>AUC<br>Recall (@&le;5% FPR)<br>Accuracy<br>F1</td><td class='col-single'><b>0.979</b> AUC<br><b>85.8% caught</b> (4.0% real flagged)<br>90.6% accuracy<br>90.6% F1<span class='tool-tag'>Community Forensics, 8 frames (app)</span></td><td class='col-combo'><b>0.947</b> AUC<br><b>86.8% caught</b> (4.3% real flagged)<br>91.0% accuracy<br>91.0% F1<span class='tool-tag'>CF + B-Free (tested, not used)</span></td><td class='col-imp'>+1.0 pts caught: no real gain, so the app keeps CF alone<br>NSG-VD physics model: AUC 0.59 once the format shortcut is removed (rejected)</td></tr><tr><td class='col-task'>Face-Swap Videos<span class='tool-tag'>Identity swap (original project)</span></td><td class='col-bench'><b>FaceForensics++</b><br>16 videos re-run from raw video<br><i>real vs Deepfakes</i></td><td class='col-metric'>Correct verdicts<br>Match to paper</td><td class='col-single'><b>16/16</b> correct<span class='tool-tag'>Spatial + Frequency + Temporal + Fusion</span></td><td class='col-combo'><b>16/16</b> correct<br>max score difference vs paper 0.0031<span class='tool-tag'>unchanged in the app</span></td><td class='col-imp'>Reproduces the paper's saved scores<br><i>Small check (16 videos), not a new benchmark</i></td></tr><tr><td class='col-task'>AI Voice Clones<span class='tool-tag'>Speech synthesis / cloning</span></td><td class='col-bench'><b>In-the-Wild</b> (16 kHz, first 6 s)<br>1500 clips<br><i>750 real / 750 AI-cloned</i></td><td class='col-metric'>AUC<br>EER (lower = better)<br>Recall (@&le;5% FPR)<br>Accuracy, F1</td><td class='col-single'><b>0.950</b> AUC<br>11.4% EER<br><b>79.7% caught</b> (4.8% real flagged)<br>87.4% accuracy<br>86.4% F1<span class='tool-tag'>mo-thecreator wav2vec2</span></td><td class='col-combo'><b>0.947</b> AUC<br>12.1% EER<br><b>78.4% caught</b> (4.7% real flagged)<br>86.8% accuracy<br>85.7% F1<span class='tool-tag'>Gustking XLS-R, calibrated (app)</span></td><td class='col-imp'>Chosen for robustness: on unseen voices (OmniFake-OOD) AUC 0.978 vs 0.889 for the mo + Gustking pair (pair on this set: 0.974 AUC)</td></tr><tr><td class='col-task'>Metadata &amp; Integrity<span class='tool-tag'>Provenance / file consistency</span></td><td class='col-bench'><b>EXIF + watermark tests</b><br>4 devices x (original, re-save, crop, edit)<br><i>+ 518 clean images</i></td><td class='col-metric'>Correct on tamper set<br>Watermark false alarms</td><td class='col-single'>Pixel tools alone: an edit with the camera EXIF copied back can pass as "No traces found"<span class='tool-tag'>before the EXIF checks</span></td><td class='col-combo'><b>16/16</b> EXIF cases correct<br><b>0/518</b> clean images flagged by the SD-watermark check<span class='tool-tag'>C2PA + EXIF consistency + SD watermark (app)</span></td><td class='col-imp'>Catches thumbnail / size contradictions<br><i>Small test (4 devices); a missing watermark proves nothing</i></td></tr><tr><td class='col-task'>Real-World Style Test<span class='tool-tag'>Unseen sources (all media)</span></td><td class='col-bench'><b>OmniFake-OOD</b> (CVPR 2026)<br>random sample, 384 px images<br><i>504 AI-img / 514 edit / 750 voice / 230 video</i></td><td class='col-metric'>AUC of the app as deployed<br>(no refitting)</td><td class='col-single'>AI images 0.756<br>Edited images 0.622<br>Voice 0.889<br>AI video 0.926<span class='tool-tag'>app before this update</span></td><td class='col-combo'>AI images <b>0.885</b><br>Edited images 0.622<br>Voice <b>0.978</b><br>AI video 0.926<span class='tool-tag'>app now (GAPL; small-image rule; voice detector)</span></td><td class='col-imp'>Every detector drops on unseen, downscaled media<br><i>Edit detectors fail at 384 px JPEG: edit findings on small images are capped at 'Possible edit'</i></td></tr></table>
+    <div class="kpi-container"><div class='kpi-card'><div class='kpi-label'>AI-edit recall (CocoGlide)</div><div class='kpi-value'>29.0% &rarr; 66.3%</div><div class='kpi-sub'>at 4.2% real flagged, AUC 0.886</div></div><div class='kpi-card'><div class='kpi-label'>AI-image AUC (AIGIBench)</div><div class='kpi-value'>0.990</div><div class='kpi-sub'>95.2% caught at 4.4% real flagged</div></div><div class='kpi-card'><div class='kpi-label'>Real-world style (OmniFake-OOD)</div><div class='kpi-value'>0.885 / 0.978</div><div class='kpi-sub'>AI-image / voice AUC on unseen sources</div></div><div class='kpi-card'><div class='kpi-label'>Coverage</div><div class='kpi-value'>6 checks</div><div class='kpi-sub'>Face &bull; AI image &bull; Edit &bull; AI video &bull; Voice &bull; Metadata</div></div></div>
+    <div class="foot">Thresholds are chosen on one half of each dataset and every metric is measured on the other half (mean of 5 random
+    splits). Generated by new/make_scoreboard.py from output/benchmarks/ (aigibench_scores.csv, CocoGlide score files, GenVideo score files,
+    voice_eval.csv, gapl/omnifake score files, paper/check/end_to_end_rerun.csv, exif/watermark summaries).</div></body></html>

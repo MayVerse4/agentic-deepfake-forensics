@@ -1,0 +1,8 @@
+{
+  "benchmark": "OmniFake-OOD: Voice: REAL vs fake speech",
+  "mo-thecreator": "AUC(app) 0.644, AUC 0.654, caught 0.0%, flagged 0.0%, acc 44.4%",
+  "Gustking": "AUC(app) 0.978, AUC 0.977, caught 90.5%, flagged 5.3%, acc 92.4%",
+  "mo + Gustking (app)": "AUC(app) 0.889, AUC 0.971, caught 88.7%, flagged 5.2%, acc 91.5%",
+  "date": "2026-11-16T20:49:54",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

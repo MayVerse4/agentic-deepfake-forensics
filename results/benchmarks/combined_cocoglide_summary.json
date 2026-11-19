@@ -1,0 +1,14 @@
+{
+  "benchmark": "Separate vs combined on CocoGlide (held-out half, 5 splits, threshold for <=5% FPR on tuning half)",
+  "TruFor alone": "AUC 0.737, edits caught 29.0%, real flagged 5.0%",
+  "AI detector alone": "AUC 0.755, edits caught 36.8%, real flagged 4.9%",
+  "max(TruFor, AI)": "AUC 0.786, edits caught 43.0%, real flagged 4.9%",
+  "Combined (logistic)": "AUC 0.798, edits caught 44.5%, real flagged 4.6%",
+  "combiner_weights (TruFor, AI, bias)": [
+    3.504,
+    2.854,
+    -1.485
+  ],
+  "date": "2026-10-30T14:25:55",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}

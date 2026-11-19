@@ -1,0 +1,95 @@
+{
+  "benchmark": "AI images: CommunityForensics-Eval sample (899 images, 17 generators)",
+  "Community Forensics alone (current)": "AUC 0.966, caught 87.6%, real flagged 6.1%",
+  "B-Free alone": "AUC 0.924, caught 71.6%, real flagged 4.7%",
+  "Both combined": "AUC 0.967, caught 89.8%, real flagged 4.7%",
+  "per_group_caught_pct": {
+    "DFGAN": [
+      100.0,
+      86.6,
+      100.0
+    ],
+    "Dalle2": [
+      97.0,
+      71.6,
+      95.7
+    ],
+    "Dalle3": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "DeciDiffusionV2": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "FLUX-dev": [
+      95.0,
+      15.4,
+      95.0
+    ],
+    "FLUX-schnell": [
+      100.0,
+      55.1,
+      100.0
+    ],
+    "Firefly_Image2": [
+      94.9,
+      92.1,
+      94.9
+    ],
+    "Firefly_Image3": [
+      71.2,
+      80.2,
+      90.4
+    ],
+    "GALIP": [
+      100.0,
+      67.2,
+      100.0
+    ],
+    "Hourglass": [
+      14.2,
+      0.0,
+      5.9
+    ],
+    "IdeogramV1": [
+      89.0,
+      95.1,
+      96.8
+    ],
+    "IdeogramV2": [
+      79.6,
+      80.4,
+      89.1
+    ],
+    "Imagen3": [
+      92.0,
+      58.9,
+      89.0
+    ],
+    "LCM_lora_ssd1b": [
+      100.0,
+      100.0,
+      100.0
+    ],
+    "MidjourneyV5_2": [
+      95.1,
+      93.7,
+      97.0
+    ],
+    "MidjourneyV6_1": [
+      79.6,
+      44.9,
+      78.8
+    ],
+    "stable_cascade": [
+      100.0,
+      100.0,
+      100.0
+    ]
+  },
+  "date": "2026-10-31T02:18:14",
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU"
+}
