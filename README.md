@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agentic Deepfake Forensics
+<h1 align="center"><img src="docs/assets/logo/logo_wordmark.png" alt="Agentic Deepfake Forensics" width="520"></h1>
 
 **Detectors decide, agents explain.**<br>
 An evidence-grounded agentic system that checks images, videos and voice recordings for deepfakes,<br>
@@ -211,8 +211,16 @@ The paper is under review. Until it is published, please cite:
 
 ## Authors
 
-Mayank Gupta, Sai Disha N, Vibha Jaikanthan and Nidhi S Mugali, supervised by Bharathi Malakreddy A.<br>
 Department of Artificial Intelligence and Machine Learning, BMS Institute of Technology and Management, Bengaluru.
+All authors contributed to the study conception. Contributions as stated in the paper:
+
+| Author | ORCID | Contribution |
+|---|---|---|
+| Mayank Gupta | [0009-0008-2604-8519](https://orcid.org/0009-0008-2604-8519) | extension of the concept (evidence-grounded agents, multi-detector design, leakage audit), methodology, design and implementation of the agentic framework and the multi-modal evidence tools, retraining study, statistical analysis, audio deepfake detection, lip-sync detection and evaluation, user interface, writing (original draft) |
+| Sai Disha N | [0009-0009-2443-5109](https://orcid.org/0009-0009-2443-5109) | implementation and refactoring of the agent system, integration of the multi-modal evidence tools, leakage audit, training of the temporal and frequency branches, multi-branch fusion model |
+| Nidhi S Mugali | [0009-0001-5676-0848](https://orcid.org/0009-0001-5676-0848) | training of the spatial branch, multi-branch fusion model, investigation |
+| Vibha Jaikanthan | [0009-0006-7693-7600](https://orcid.org/0009-0006-7693-7600) | preprocessing pipeline, audio preprocessing, lip-sync analysis modules, software testing |
+| Bharathi Malakreddy A | [0000-0002-8456-3227](https://orcid.org/0000-0002-8456-3227) | supervision, project administration, writing (review and editing) |
 
 ## Acknowledgements
 
