@@ -12,8 +12,6 @@ explains every verdict, and says *Cannot determine* when the evidence is too wea
 ![Next.js](https://img.shields.io/badge/Next.js-frontend-000000?logo=nextdotjs&logoColor=white)
 ![Paper](https://img.shields.io/badge/paper-under%20review-orange)
 
-<img src="frontend/screenshots/analysis-results.png" alt="Analysis result in the web app" width="88%">
-
 </div>
 
 ---
@@ -73,14 +71,6 @@ flowchart LR
 | Pixel and provenance checks | error-level analysis, noise and spectrum maps, metadata and C2PA parsing, reverse image search | [`backend/`](backend/) |
 | API | FastAPI job queue, accounts, history | [`backend/forensics_api.py`](backend/forensics_api.py) |
 | Web app | upload, live analysis steps, heatmaps, history | [`frontend/`](frontend/) |
-
-## Screenshots
-
-| Landing page | Live analysis |
-|---|---|
-| <img src="frontend/screenshots/landing-page.png" width="420"> | <img src="frontend/screenshots/analysis-dashboard.png" width="420"> |
-| **Result with evidence** | **History** |
-| <img src="frontend/screenshots/analysis-results.png" width="420"> | <img src="frontend/screenshots/history.png" width="420"> |
 
 ## Repository layout
 
