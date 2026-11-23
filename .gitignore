@@ -69,6 +69,5 @@ restructure_manifest.json
 backend/data/
 backend/source_cache.json
 frontend/local_history.json
-results/retrain/*.npz
 *.partial.csv
 frontend/public/dataset/
